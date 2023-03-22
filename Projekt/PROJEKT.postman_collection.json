@@ -1,0 +1,737 @@
+{
+	"info": {
+		"_postman_id": "12f5f5a9-141f-43ae-99a2-7335dd9b37a9",
+		"name": "PROJEKT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21333070"
+	},
+	"item": [
+		{
+			"name": "app_3",
+			"item": [
+				{
+					"name": "provjere",
+					"item": [
+						{
+							"name": "provjere/{token} Copy",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "lozinka",
+										"value": "perokos",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic-aplikacija_3/api/provjere/qglartynNKG_6_YTTCnbp31WRgdGUR3n",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic-aplikacija_3",
+										"api",
+										"provjere",
+										"qglartynNKG_6_YTTCnbp31WRgdGUR3n"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "provjere",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "lozinka",
+										"value": "perokos",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic-aplikacija_3/api/provjere",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic-aplikacija_3",
+										"api",
+										"provjere"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "provjere/{token}",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "lozinka",
+										"value": "perokos",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic-aplikacija_3/api/provjere/qglartynNKG_6_YTTCnbp31WRgdGUR3n",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic-aplikacija_3",
+										"api",
+										"provjere",
+										"qglartynNKG_6_YTTCnbp31WRgdGUR3n"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "provjere/korisnik/{korisnik}",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "vaslim",
+										"type": "default"
+									},
+									{
+										"key": "lozinka",
+										"value": "vaslim",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic-aplikacija_3/api/provjere/korisnik/pkos",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic-aplikacija_3",
+										"api",
+										"provjere",
+										"korisnik",
+										"pkos"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "korisnici",
+					"item": [
+						{
+							"name": "svi korisnici",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "3HZ7Xag4eOAFjOjPcmSwLa1X2xBMS93_",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/korisnici",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"korisnici"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "korisnik jedan",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "3HZ7Xag4eOAFjOjPcmSwLa1X2xBMS93_",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/korisnici/vaslim",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"korisnici",
+										"vaslim"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "korisnik jedan grupe",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "0VX6YDcedXytHF-x-GlOnujSuUljsiMG",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/korisnici/vaslim/grupe",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"korisnici",
+										"vaslim",
+										"grupe"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "dodaj korisnika",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "TLeiXZurT3F-AuH58ncELRy7cB9i2jfW",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": " {\n        \"email\": \"greetings@yours.truly\",\n        \"ime\": \"ching\",\n        \"korIme\": \"chang\",\n        \"lozinka\": \"ching\",\n        \"prezime\": \"chang\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/korisnici",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"korisnici"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "aerodromi",
+					"item": [
+						{
+							"name": "aerodromi",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/aerodromi",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"aerodromi"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "aerodromi/icao",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/aerodromi/LDZA",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"aerodromi",
+										"LDZA"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "dodaj ICAO za pracenje",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "default"
+									},
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"icao\":\"LDZA\"\n}"
+								},
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/aerodromi/",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"aerodromi",
+										""
+									],
+									"query": [
+										{
+											"key": "icao",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "aerodromi/{icao}",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/aerodromi/LDZA",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"aerodromi",
+										"LDZA"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "aerodromi/{icao}/polasci?dan",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/aerodromi/LOWW/polasci?vrsta=0&vrijemeOd=02.01.2022.&vrijemeDo=03.01.2022.",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"aerodromi",
+										"LOWW",
+										"polasci"
+									],
+									"query": [
+										{
+											"key": "vrsta",
+											"value": "0"
+										},
+										{
+											"key": "vrijemeOd",
+											"value": "02.01.2022."
+										},
+										{
+											"key": "vrijemeDo",
+											"value": "03.01.2022."
+										},
+										{
+											"key": "str",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "br",
+											"value": "10",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "aerodromi/{icao}/dolasci?dan",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/aerodromi/LOWW/dolasci?vrsta=0&vrijemeOd=02.01.2022.&vrijemeDo=03.01.2022.",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"aerodromi",
+										"LOWW",
+										"dolasci"
+									],
+									"query": [
+										{
+											"key": "vrsta",
+											"value": "0"
+										},
+										{
+											"key": "vrijemeOd",
+											"value": "02.01.2022."
+										},
+										{
+											"key": "vrijemeDo",
+											"value": "03.01.2022."
+										},
+										{
+											"key": "str",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "br",
+											"value": "10",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "aerodromi/{icao1}/{icao2}",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/aerodromi/AYPY/LDZA",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"aerodromi",
+										"AYPY",
+										"LDZA"
+									],
+									"query": [
+										{
+											"key": "vrsta",
+											"value": "0",
+											"disabled": true
+										},
+										{
+											"key": "vrijemeOd",
+											"value": "02.01.2022.",
+											"disabled": true
+										},
+										{
+											"key": "vrijemeDo",
+											"value": "03.01.2022.",
+											"disabled": true
+										},
+										{
+											"key": "str",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "br",
+											"value": "10",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "serveri",
+					"item": [
+						{
+							"name": "STATUS",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/serveri",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"serveri"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "komanda",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/serveri/CLEAR",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"serveri",
+										"CLEAR"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "LOAD",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "korisnik",
+										"value": "pkos",
+										"type": "default"
+									},
+									{
+										"key": "zeton",
+										"value": "P-LS25pjRvZXyFUggA1l1tTmJJE3ztN2",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[{\"drzava\":\"PG\",\"icao\":\"AYPY\",\"lokacija\":{\"latitude\":\"147.22000122070312\",\"longitude\":\"-9.4433803\"},\"naziv\":\"Port Moresby Jacksons International Airport\"},{\"drzava\":\"IS\",\"icao\":\"BIKF\",\"lokacija\":{\"latitude\":\"-22.605600357056\",\"longitude\":\"63.985000610\"},\"naziv\":\"Keflavik International Airport\"},{\"drzava\":\"MA\",\"icao\":\"CMN\",\"lokacija\":{\"latitude\":\"0\",\"longitude\":\"0\"},\"naziv\":\"CMN\"},{\"drzava\":\"CA\",\"icao\":\"CYEG\",\"lokacija\":{\"latitude\":\"-113.580001831\",\"longitude\":\"53.30970001220\"},\"naziv\":\"Edmonton International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYHZ\",\"lokacija\":{\"latitude\":\"-63.5085983276\",\"longitude\":\"44.8807983398\"},\"naziv\":\"Halifax / Stanfield International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYOW\",\"lokacija\":{\"latitude\":\"-75.66919708251953\",\"longitude\":\"45.3224983\"},\"naziv\":\"Ottawa Macdonald-Cartier International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYUL\",\"lokacija\":{\"latitude\":\"-73.7407989502\",\"longitude\":\"45.4706001282\"},\"naziv\":\"Montreal / Pierre Elliott Trudeau International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYVR\",\"lokacija\":{\"latitude\":\"-123.183998108\",\"longitude\":\"49.193901062\"},\"naziv\":\"Vancouver International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYWG\",\"lokacija\":{\"latitude\":\"-97.2398986816\",\"longitude\":\"49.90999984739\"},\"naziv\":\"Winnipeg / James Armstrong Richardson International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYYC\",\"lokacija\":{\"latitude\":\"-114.019996643\",\"longitude\":\"51.113899231\"},\"naziv\":\"Calgary International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYYJ\",\"lokacija\":{\"latitude\":\"-123.426002502\",\"longitude\":\"48.646900177\"},\"naziv\":\"Victoria International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYYT\",\"lokacija\":{\"latitude\":\"-52.7518997192\",\"longitude\":\"47.618598938\"},\"naziv\":\"St. John's International Airport\"},{\"drzava\":\"CA\",\"icao\":\"CYYZ\",\"lokacija\":{\"latitude\":\"-79.63059997559999\",\"longitude\":\"43.6772003\"},\"naziv\":\"Lester B. Pearson International Airport\"},{\"drzava\":\"DZ\",\"icao\":\"DAAG\",\"lokacija\":{\"latitude\":\"3.215409994125366\",\"longitude\":\"36.69100189\"},\"naziv\":\"Houari Boumediene Airport\"},{\"drzava\":\"BF\",\"icao\":\"DFFD\",\"lokacija\":{\"latitude\":\"-1.51242\",\"longitude\":\"12.3532\"},\"naziv\":\"Ouagadougou Airport\"},{\"drzava\":\"GH\",\"icao\":\"DGAA\",\"lokacija\":{\"latitude\":\"-0.16678600013256073\",\"longitude\":\"5.605189\"},\"naziv\":\"Kotoka International Airport\"},{\"drzava\":\"NG\",\"icao\":\"DNAA\",\"lokacija\":{\"latitude\":\"7.263169765472412\",\"longitude\":\"9.006790161\"},\"naziv\":\"Nnamdi Azikiwe International Airport\"},{\"drzava\":\"NG\",\"icao\":\"DNAI\",\"lokacija\":{\"latitude\":\"8.093\",\"longitude\":\"4.8725\"},\"naziv\":\"Akwa Ibom International Airport\"},{\"drzava\":\"NG\",\"icao\":\"DNKN\",\"lokacija\":{\"latitude\":\"8.52462\",\"longitude\":\"12.0476\"},\"naziv\":\"Mallam Aminu International Airport\"},{\"drzava\":\"NG\",\"icao\":\"DNMM\",\"lokacija\":{\"latitude\":\"3.321160078048706\",\"longitude\":\"6.577370166\"},\"naziv\":\"Murtala Muhammed International Airport\"},{\"drzava\":\"NE\",\"icao\":\"DRRN\",\"lokacija\":{\"latitude\":\"2.18361\",\"longitude\":\"13.4815\"},\"naziv\":\"Diori Hamani International Airport\"},{\"drzava\":\"TN\",\"icao\":\"DTTA\",\"lokacija\":{\"latitude\":\"10.22719955444336\",\"longitude\":\"36.85100173\"},\"naziv\":\"Tunis Carthage International Airport\"},{\"drzava\":\"BE\",\"icao\":\"EBBR\",\"lokacija\":{\"latitude\":\"4.48443984985\",\"longitude\":\"50.901401519800\"},\"naziv\":\"Brussels Airport\"},{\"drzava\":\"BE\",\"icao\":\"EBCI\",\"lokacija\":{\"latitude\":\"4.45382\",\"longitude\":\"50.459202\"},\"naziv\":\"Brussels South Charleroi Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDC\",\"lokacija\":{\"latitude\":\"13.767200469970703\",\"longitude\":\"51.1328010\"},\"naziv\":\"Dresden Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDF\",\"lokacija\":{\"latitude\":\"8.570556\",\"longitude\":\"50.033333\"},\"naziv\":\"Frankfurt am Main Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDH\",\"lokacija\":{\"latitude\":\"9.9882297515869\",\"longitude\":\"53.6304016113\"},\"naziv\":\"Hamburg Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDK\",\"lokacija\":{\"latitude\":\"7.1427397728\",\"longitude\":\"50.8658981323\"},\"naziv\":\"Cologne Bonn Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDM\",\"lokacija\":{\"latitude\":\"11.7861\",\"longitude\":\"48.353802\"},\"naziv\":\"Munich Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDN\",\"lokacija\":{\"latitude\":\"11.078056\",\"longitude\":\"49.498699\"},\"naziv\":\"Nuremberg Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDP\",\"lokacija\":{\"latitude\":\"12.236389\",\"longitude\":\"51.423889\"},\"naziv\":\"Leipzig/Halle Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDS\",\"lokacija\":{\"latitude\":\"9.22196006775\",\"longitude\":\"48.689899444599\"},\"naziv\":\"Stuttgart Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDT\",\"lokacija\":{\"latitude\":\"13.2877\",\"longitude\":\"52.5597\"},\"naziv\":\"Berlin-Tegel Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDV\",\"lokacija\":{\"latitude\":\"9.685079574580001\",\"longitude\":\"52.46110153\"},\"naziv\":\"Hannover Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDDW\",\"lokacija\":{\"latitude\":\"8.78666973114\",\"longitude\":\"53.0475006104\"},\"naziv\":\"Bremen Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDLW\",\"lokacija\":{\"latitude\":\"7.61223983765\",\"longitude\":\"51.518299102799\"},\"naziv\":\"Dortmund Airport\"},{\"drzava\":\"DE\",\"icao\":\"EDSB\",\"lokacija\":{\"latitude\":\"8.08049964905\",\"longitude\":\"48.7793998718\"},\"naziv\":\"Karlsruhe Baden-Baden Airport\"},{\"drzava\":\"EE\",\"icao\":\"EETN\",\"lokacija\":{\"latitude\":\"24.832799911499997\",\"longitude\":\"59.4132995\"},\"naziv\":\"Lennart Meri Tallinn Airport\"},{\"drzava\":\"AE\",\"icao\":\"EFDD\",\"lokacija\":{\"latitude\":\"0\",\"longitude\":\"0\"},\"naziv\":\"LOAN OFFER\"},{\"drzava\":\"FI\",\"icao\":\"EFHK\",\"lokacija\":{\"latitude\":\"24.963300704956\",\"longitude\":\"60.3171997070\"},\"naziv\":\"Helsinki Vantaa Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGAA\",\"lokacija\":{\"latitude\":\"-6.2158298492399995\",\"longitude\":\"54.657501\"},\"naziv\":\"Belfast International Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGAC\",\"lokacija\":{\"latitude\":\"-5.872499942779541\",\"longitude\":\"54.6180992\"},\"naziv\":\"George Best Belfast City Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGBB\",\"lokacija\":{\"latitude\":\"-1.74802994728\",\"longitude\":\"52.45389938349\"},\"naziv\":\"Birmingham International Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGCC\",\"lokacija\":{\"latitude\":\"-2.2749500274658203\",\"longitude\":\"53.353698\"},\"naziv\":\"Manchester Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGCN\",\"lokacija\":{\"latitude\":\"-1.01065635681\",\"longitude\":\"53.4805378105\"},\"naziv\":\"Robin Hood Doncaster Sheffield Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGFF\",\"lokacija\":{\"latitude\":\"-3.343329906463623\",\"longitude\":\"51.3967018\"},\"naziv\":\"Cardiff International Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGGD\",\"lokacija\":{\"latitude\":\"-2.71909\",\"longitude\":\"51.382702\"},\"naziv\":\"Bristol Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGGP\",\"lokacija\":{\"latitude\":\"-2.849720001220703\",\"longitude\":\"53.3335990\"},\"naziv\":\"Liverpool John Lennon Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGGW\",\"lokacija\":{\"latitude\":\"-0.36833301186561584\",\"longitude\":\"51.87469\"},\"naziv\":\"London Luton Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGHH\",\"lokacija\":{\"latitude\":\"-1.8424999713897705\",\"longitude\":\"50.779998\"},\"naziv\":\"Bournemouth Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGHI\",\"lokacija\":{\"latitude\":\"-1.3567999601364136\",\"longitude\":\"50.950298\"},\"naziv\":\"Southampton Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGKK\",\"lokacija\":{\"latitude\":\"-0.190278\",\"longitude\":\"51.148102\"},\"naziv\":\"London Gatwick Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGLL\",\"lokacija\":{\"latitude\":\"-0.461941\",\"longitude\":\"51.4706\"},\"naziv\":\"London Heathrow Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGNM\",\"lokacija\":{\"latitude\":\"-1.6605700254440308\",\"longitude\":\"53.865898\"},\"naziv\":\"Leeds Bradford Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGNT\",\"lokacija\":{\"latitude\":\"-1.6916699409484863\",\"longitude\":\"55.037498\"},\"naziv\":\"Newcastle Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGNX\",\"lokacija\":{\"latitude\":\"-1.32806003094\",\"longitude\":\"52.8311004639\"},\"naziv\":\"East Midlands Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGPD\",\"lokacija\":{\"latitude\":\"-2.197779893875122\",\"longitude\":\"57.2019004\"},\"naziv\":\"Aberdeen Dyce Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGPF\",\"lokacija\":{\"latitude\":\"-4.43306016922\",\"longitude\":\"55.8718986511\"},\"naziv\":\"Glasgow International Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGPH\",\"lokacija\":{\"latitude\":\"-3.372499942779541\",\"longitude\":\"55.9500007\"},\"naziv\":\"Edinburgh Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGSH\",\"lokacija\":{\"latitude\":\"1.28278005123\",\"longitude\":\"52.6758003235\"},\"naziv\":\"Norwich International Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGSS\",\"lokacija\":{\"latitude\":\"0.234999999404\",\"longitude\":\"51.8849983215\"},\"naziv\":\"London Stansted Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGTE\",\"lokacija\":{\"latitude\":\"-3.4138898849487305\",\"longitude\":\"50.734401\"},\"naziv\":\"Exeter International Airport\"},{\"drzava\":\"GB\",\"icao\":\"EGUL\",\"lokacija\":{\"latitude\":\"0.56099998951\",\"longitude\":\"52.409301757799\"},\"naziv\":\"RAF Lakenheath\"},{\"drzava\":\"GB\",\"icao\":\"EGUN\",\"lokacija\":{\"latitude\":\"0.48640599846839905\",\"longitude\":\"52.361900\"},\"naziv\":\"RAF Mildenhall\"},{\"drzava\":\"GB\",\"icao\":\"EGVA\",\"lokacija\":{\"latitude\":\"-1.7900300025900002\",\"longitude\":\"51.682201\"},\"naziv\":\"RAF Fairford\"},{\"drzava\":\"GB\",\"icao\":\"EGVN\",\"lokacija\":{\"latitude\":\"-1.58362\",\"longitude\":\"51.75\"},\"naziv\":\"RAF Brize Norton\"},{\"drzava\":\"NL\",\"icao\":\"EHAM\",\"lokacija\":{\"latitude\":\"4.76389\",\"longitude\":\"52.308601\"},\"naziv\":\"Amsterdam Airport Schiphol\"},{\"drzava\":\"NL\",\"icao\":\"EHEH\",\"lokacija\":{\"latitude\":\"5.37452983856\",\"longitude\":\"51.4500999451\"},\"naziv\":\"Eindhoven Airport\"},{\"drzava\":\"IE\",\"icao\":\"EICK\",\"lokacija\":{\"latitude\":\"-8.491109848022461\",\"longitude\":\"51.8413009\"},\"naziv\":\"Cork Airport\"},{\"drzava\":\"IE\",\"icao\":\"EIDW\",\"lokacija\":{\"latitude\":\"-6.27007\",\"longitude\":\"53.421299\"},\"naziv\":\"Dublin Airport\"},{\"drzava\":\"IE\",\"icao\":\"EINN\",\"lokacija\":{\"latitude\":\"-8.92482\",\"longitude\":\"52.702\"},\"naziv\":\"Shannon Airport\"},{\"drzava\":\"DK\",\"icao\":\"EKBI\",\"lokacija\":{\"latitude\":\"9.15178012848\",\"longitude\":\"55.7402992249\"},\"naziv\":\"Billund Airport\"},{\"drzava\":\"DK\",\"icao\":\"EKCH\",\"lokacija\":{\"latitude\":\"12.656000137329\",\"longitude\":\"55.6179008483\"},\"naziv\":\"Copenhagen Kastrup Airport\"},{\"drzava\":\"DK\",\"icao\":\"EKYT\",\"lokacija\":{\"latitude\":\"9.84924316406\",\"longitude\":\"57.0927589138\"},\"naziv\":\"Aalborg Airport\"},{\"drzava\":\"LU\",\"icao\":\"ELLX\",\"lokacija\":{\"latitude\":\"6.2044444\",\"longitude\":\"49.6233333\"},\"naziv\":\"Luxembourg-Findel International Airport\"},{\"drzava\":\"NO\",\"icao\":\"ENBR\",\"lokacija\":{\"latitude\":\"5.218140125\",\"longitude\":\"60.29339981\"},\"naziv\":\"Bergen Airport Flesland\"},{\"drzava\":\"NO\",\"icao\":\"ENGM\",\"lokacija\":{\"latitude\":\"11.100399971008\",\"longitude\":\"60.1939010620\"},\"naziv\":\"Oslo Gardermoen Airport\"},{\"drzava\":\"NO\",\"icao\":\"ENZV\",\"lokacija\":{\"latitude\":\"5.6377801895\",\"longitude\":\"58.876701354\"},\"naziv\":\"Stavanger Airport Sola\"},{\"drzava\":\"PL\",\"icao\":\"EPKT\",\"lokacija\":{\"latitude\":\"19.08\",\"longitude\":\"50.4743\"},\"naziv\":\"Katowice International Airport\"},{\"drzava\":\"PL\",\"icao\":\"EPMO\",\"lokacija\":{\"latitude\":\"20.6518\",\"longitude\":\"52.451099\"},\"naziv\":\"Modlin Airport\"},{\"drzava\":\"PL\",\"icao\":\"EPWA\",\"lokacija\":{\"latitude\":\"20.967100143399996\",\"longitude\":\"52.1656990\"},\"naziv\":\"Warsaw Chopin Airport\"},{\"drzava\":\"PL\",\"icao\":\"EPWR\",\"lokacija\":{\"latitude\":\"16.885799408\",\"longitude\":\"51.1026992798\"},\"naziv\":\"Copernicus Wroclaw Airport\"},{\"drzava\":\"SE\",\"icao\":\"ESGG\",\"lokacija\":{\"latitude\":\"12.279800415039\",\"longitude\":\"57.6627998352\"},\"naziv\":\"Gothenburg-Landvetter Airport\"},{\"drzava\":\"SE\",\"icao\":\"ESSA\",\"lokacija\":{\"latitude\":\"17.918600082397\",\"longitude\":\"59.6519012451\"},\"naziv\":\"Stockholm-Arlanda Airport\"},{\"drzava\":\"DE\",\"icao\":\"ETAR\",\"lokacija\":{\"latitude\":\"7.600279808044434\",\"longitude\":\"49.43690109\"},\"naziv\":\"Ramstein Air Base\"},{\"drzava\":\"LV\",\"icao\":\"EVRA\",\"lokacija\":{\"latitude\":\"23.971099853515625\",\"longitude\":\"56.9235992\"},\"naziv\":\"Riga International Airport\"},{\"drzava\":\"LT\",\"icao\":\"EYVI\",\"lokacija\":{\"latitude\":\"25.285801\",\"longitude\":\"54.634102\"},\"naziv\":\"Vilnius International Airport\"},{\"drzava\":\"ZA\",\"icao\":\"FACT\",\"lokacija\":{\"latitude\":\"18.6016998291\",\"longitude\":\"-33.9648017883\"},\"naziv\":\"Cape Town International Airport\"},{\"drzava\":\"ZA\",\"icao\":\"FAGG\",\"lokacija\":{\"latitude\":\"22.378902\",\"longitude\":\"-34.0056\"},\"naziv\":\"George Airport\"},{\"drzava\":\"ZA\",\"icao\":\"FAJS\",\"lokacija\":{\"latitude\":\"28.246\",\"longitude\":\"-26.1392\"},\"naziv\":\"OR Tambo International Airport\"},{\"drzava\":\"ZA\",\"icao\":\"FALE\",\"lokacija\":{\"latitude\":\"31.1197222222\",\"longitude\":\"-29.6144444444\"},\"naziv\":\"King Shaka International Airport\"},{\"drzava\":\"ZA\",\"icao\":\"FAOR\",\"lokacija\":{\"latitude\":\"28.246\",\"longitude\":\"-26.1392\"},\"naziv\":\"OR Tambo International Airport\"},{\"drzava\":\"BW\",\"icao\":\"FBSK\",\"lokacija\":{\"latitude\":\"25.9182\",\"longitude\":\"-24.555201\"},\"naziv\":\"Sir Seretse Khama International Airport\"},{\"drzava\":\"MU\",\"icao\":\"FIMP\",\"lokacija\":{\"latitude\":\"57.683601\",\"longitude\":\"-20.430201\"},\"naziv\":\"Sir Seewoosagur Ramgoolam International Airport\"},{\"drzava\":\"ZM\",\"icao\":\"FLLS\",\"lokacija\":{\"latitude\":\"28.4526004791\",\"longitude\":\"-15.3308000565\"},\"naziv\":\"Kenneth Kaunda International Airport Lusaka\"},{\"drzava\":\"MG\",\"icao\":\"FMMI\",\"lokacija\":{\"latitude\":\"47.478802\",\"longitude\":\"-18.7969\"},\"naziv\":\"Ivato Airport\"},{\"drzava\":\"AO\",\"icao\":\"FNLU\",\"lokacija\":{\"latitude\":\"13.2312\",\"longitude\":\"-8.85837\"},\"naziv\":\"Quatro de Fevereiro Airport\"},{\"drzava\":\"MZ\",\"icao\":\"FQMA\",\"lokacija\":{\"latitude\":\"32.572601\",\"longitude\":\"-25.920799\"},\"naziv\":\"Maputo Airport\"},{\"drzava\":\"SC\",\"icao\":\"FSIA\",\"lokacija\":{\"latitude\":\"55.521801\",\"longitude\":\"-4.67434\"},\"naziv\":\"Seychelles International Airport\"},{\"drzava\":\"TD\",\"icao\":\"FTTJ\",\"lokacija\":{\"latitude\":\"15.034\",\"longitude\":\"12.1337\"},\"naziv\":\"N'Djamena International Airport\"},{\"drzava\":\"ZW\",\"icao\":\"FVHA\",\"lokacija\":{\"latitude\":\"31.0928\",\"longitude\":\"-17.931801\"},\"naziv\":\"Robert Gabriel Mugabe International Airport\"},{\"icao\":\"FYWH\",\"lokacija\":{\"latitude\":\"17.4709\",\"longitude\":\"-22.4799\"},\"naziv\":\"Hosea Kutako International Airport\"},{\"drzava\":\"CD\",\"icao\":\"FZAA\",\"lokacija\":{\"latitude\":\"15.4446\",\"longitude\":\"-4.38575\"},\"naziv\":\"Ndjili International Airport\"},{\"drzava\":\"ML\",\"icao\":\"GABS\",\"lokacija\":{\"latitude\":\"-7.94994\",\"longitude\":\"12.5335\"},\"naziv\":\"Modibo Keita International Airport\"},{\"drzava\":\"ES\",\"icao\":\"GCLA\",\"lokacija\":{\"latitude\":\"-17.7556\",\"longitude\":\"28.626499\"},\"naziv\":\"La Palma Airport\"},{\"drzava\":\"ES\",\"icao\":\"GCLP\",\"lokacija\":{\"latitude\":\"-15.38659954071045\",\"longitude\":\"27.9319000\"},\"naziv\":\"Gran Canaria Airport\"},{\"drzava\":\"ES\",\"icao\":\"GCTS\",\"lokacija\":{\"latitude\":\"-16.5725002289\",\"longitude\":\"28.044500351\"},\"naziv\":\"Tenerife South Airport\"},{\"drzava\":\"ES\",\"icao\":\"GCXO\",\"lokacija\":{\"latitude\":\"-16.3414993286\",\"longitude\":\"28.4827003479\"},\"naziv\":\"Tenerife Norte Airport\"},{\"drzava\":\"SL\",\"icao\":\"GFLL\",\"lokacija\":{\"latitude\":\"-13.1955\",\"longitude\":\"8.61644\"},\"naziv\":\"Lungi International Airport\"},{\"drzava\":\"LR\",\"icao\":\"GLRB\",\"lokacija\":{\"latitude\":\"-10.3623\",\"longitude\":\"6.23379\"},\"naziv\":\"Roberts International Airport\"},{\"drzava\":\"MA\",\"icao\":\"GMMN\",\"lokacija\":{\"latitude\":\"-7.589970111846924\",\"longitude\":\"33.3675003\"},\"naziv\":\"Mohammed V International Airport\"},{\"drzava\":\"SN\",\"icao\":\"GOBD\",\"lokacija\":{\"latitude\":\"-17.073333\",\"longitude\":\"14.67\"},\"naziv\":\"Blaise Diagne International Airport\"},{\"drzava\":\"CH\",\"icao\":\"GVA\",\"lokacija\":{\"latitude\":\"0\",\"longitude\":\"0\"},\"naziv\":\"Airport\"},{\"drzava\":\"ET\",\"icao\":\"HAAB\",\"lokacija\":{\"latitude\":\"38.799301147499996\",\"longitude\":\"8.97789001\"},\"naziv\":\"Addis Ababa Bole International Airport\"},{\"drzava\":\"EG\",\"icao\":\"HECA\",\"lokacija\":{\"latitude\":\"31.40559959411621\",\"longitude\":\"30.12190055\"},\"naziv\":\"Cairo International Airport\"},{\"drzava\":\"EG\",\"icao\":\"HEGN\",\"lokacija\":{\"latitude\":\"33.799400329589844\",\"longitude\":\"27.1783008\"},\"naziv\":\"Hurghada International Airport\"},{\"drzava\":\"EG\",\"icao\":\"HELX\",\"lokacija\":{\"latitude\":\"32.7066\",\"longitude\":\"25.671\"},\"naziv\":\"Luxor International Airport\"},{\"drzava\":\"KE\",\"icao\":\"HKJK\",\"lokacija\":{\"latitude\":\"36.9277992249\",\"longitude\":\"-1.31923997402\"},\"naziv\":\"Jomo Kenyatta International Airport\"},{\"drzava\":\"KE\",\"icao\":\"HKMO\",\"lokacija\":{\"latitude\":\"39.594200134277344\",\"longitude\":\"-4.0348300\"},\"naziv\":\"Mombasa Moi International Airport\"},{\"drzava\":\"LY\",\"icao\":\"HLLT\",\"lokacija\":{\"latitude\":\"13.1590003967\",\"longitude\":\"32.6635017395\"},\"naziv\":\"Tripoli International Airport\"},{\"drzava\":\"RW\",\"icao\":\"HRYR\",\"lokacija\":{\"latitude\":\"30.1395\",\"longitude\":\"-1.96863\"},\"naziv\":\"Kigali International Airport\"},{\"drzava\":\"SS\",\"icao\":\"HSSJ\",\"lokacija\":{\"latitude\":\"31.6011009216\",\"longitude\":\"4.87201023102\"},\"naziv\":\"Juba International Airport\"},{\"drzava\":\"SD\",\"icao\":\"HSSS\",\"lokacija\":{\"latitude\":\"32.553199768066406\",\"longitude\":\"15.5895004\"},\"naziv\":\"Khartoum International Airport\"},{\"drzava\":\"TZ\",\"icao\":\"HTDA\",\"lokacija\":{\"latitude\":\"39.202599\",\"longitude\":\"-6.87811\"},\"naziv\":\"Julius Nyerere International Airport\"},{\"drzava\":\"TZ\",\"icao\":\"HTZA\",\"lokacija\":{\"latitude\":\"39.224899\",\"longitude\":\"-6.22202\"},\"naziv\":\"Abeid Amani Karume International Airport\"},{\"drzava\":\"UG\",\"icao\":\"HUEN\",\"lokacija\":{\"latitude\":\"32.443501\",\"longitude\":\"0.042386\"},\"naziv\":\"Entebbe International Airport\"},{\"drzava\":\"US\",\"icao\":\"KABQ\",\"lokacija\":{\"latitude\":\"-106.609001\",\"longitude\":\"35.040199\"},\"naziv\":\"Albuquerque International Sunport\"},{\"drzava\":\"US\",\"icao\":\"KADW\",\"lokacija\":{\"latitude\":\"-76.866997\",\"longitude\":\"38.810799\"},\"naziv\":\"Joint Base Andrews\"},{\"drzava\":\"US\",\"icao\":\"KAFW\",\"lokacija\":{\"latitude\":\"-97.31880187990001\",\"longitude\":\"32.9875984\"},\"naziv\":\"Fort Worth Alliance Airport\"},{\"drzava\":\"US\",\"icao\":\"KAGS\",\"lokacija\":{\"latitude\":\"-81.9645004272461\",\"longitude\":\"33.36989974\"},\"naziv\":\"Augusta Regional At Bush Field\"},{\"drzava\":\"US\",\"icao\":\"KAMA\",\"lokacija\":{\"latitude\":\"-101.706001\",\"longitude\":\"35.219398\"},\"naziv\":\"Rick Husband Amarillo International Airport\"},{\"drzava\":\"US\",\"icao\":\"KATL\",\"lokacija\":{\"latitude\":\"-84.428101\",\"longitude\":\"33.6367\"},\"naziv\":\"Hartsfield Jackson Atlanta International Airport\"},{\"drzava\":\"US\",\"icao\":\"KAUS\",\"lokacija\":{\"latitude\":\"-97.6698989868164\",\"longitude\":\"30.19449996\"},\"naziv\":\"Austin Bergstrom International Airport\"},{\"drzava\":\"US\",\"icao\":\"KAVL\",\"lokacija\":{\"latitude\":\"-82.54180145263672\",\"longitude\":\"35.4361991\"},\"naziv\":\"Asheville Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KBAB\",\"lokacija\":{\"latitude\":\"-121.43699646\",\"longitude\":\"39.136100769\"},\"naziv\":\"Beale Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KBAD\",\"lokacija\":{\"latitude\":\"-93.6626968384\",\"longitude\":\"32.5018005371\"},\"naziv\":\"Barksdale Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KBDL\",\"lokacija\":{\"latitude\":\"-72.68319702149999\",\"longitude\":\"41.9388999\"},\"naziv\":\"Bradley International Airport\"},{\"drzava\":\"US\",\"icao\":\"KBFI\",\"lokacija\":{\"latitude\":\"-122.302001953125\",\"longitude\":\"47.52999877\"},\"naziv\":\"Boeing Field King County International Airport\"},{\"drzava\":\"US\",\"icao\":\"KBGR\",\"lokacija\":{\"latitude\":\"-68.8281021118164\",\"longitude\":\"44.80739974\"},\"naziv\":\"Bangor International Airport\"},{\"drzava\":\"US\",\"icao\":\"KBHM\",\"lokacija\":{\"latitude\":\"-86.75350189\",\"longitude\":\"33.56290054\"},\"naziv\":\"Birmingham-Shuttlesworth International Airport\"},{\"drzava\":\"US\",\"icao\":\"KBIL\",\"lokacija\":{\"latitude\":\"-108.54299926757812\",\"longitude\":\"45.807701\"},\"naziv\":\"Billings Logan International Airport\"},{\"drzava\":\"US\",\"icao\":\"KBLV\",\"lokacija\":{\"latitude\":\"-89.835197\",\"longitude\":\"38.5452\"},\"naziv\":\"Scott AFB/Midamerica Airport\"},{\"drzava\":\"US\",\"icao\":\"KBMI\",\"lokacija\":{\"latitude\":\"-88.91590118\",\"longitude\":\"40.47710037\"},\"naziv\":\"Central Illinois Regional Airport at Bloomington-Normal\"},{\"drzava\":\"US\",\"icao\":\"KBNA\",\"lokacija\":{\"latitude\":\"-86.6781997680664\",\"longitude\":\"36.12450027\"},\"naziv\":\"Nashville International Airport\"},{\"drzava\":\"US\",\"icao\":\"KBOI\",\"lokacija\":{\"latitude\":\"-116.223\",\"longitude\":\"43.5644\"},\"naziv\":\"Boise Air Terminal/Gowen Field\"},{\"drzava\":\"US\",\"icao\":\"KBOS\",\"lokacija\":{\"latitude\":\"-71.00520325\",\"longitude\":\"42.36429977\"},\"naziv\":\"General Edward Lawrence Logan International Airport\"},{\"drzava\":\"US\",\"icao\":\"KBUF\",\"lokacija\":{\"latitude\":\"-78.73220062\",\"longitude\":\"42.94049835\"},\"naziv\":\"Buffalo Niagara International Airport\"},{\"drzava\":\"US\",\"icao\":\"KBWI\",\"lokacija\":{\"latitude\":\"-76.668297\",\"longitude\":\"39.1754\"},\"naziv\":\"Baltimore/Washington International Thurgood Marshall Airport\"},{\"drzava\":\"US\",\"icao\":\"KCAE\",\"lokacija\":{\"latitude\":\"-81.11949920654297\",\"longitude\":\"33.9388008\"},\"naziv\":\"Columbia Metropolitan Airport\"},{\"drzava\":\"US\",\"icao\":\"KCBM\",\"lokacija\":{\"latitude\":\"-88.44380187990001\",\"longitude\":\"33.6437988\"},\"naziv\":\"Columbus Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KCHA\",\"lokacija\":{\"latitude\":\"-85.20379638671875\",\"longitude\":\"35.0353012\"},\"naziv\":\"Lovell Field\"},{\"drzava\":\"US\",\"icao\":\"KCHS\",\"lokacija\":{\"latitude\":\"-80.04049683\",\"longitude\":\"32.89860153\"},\"naziv\":\"Charleston Air Force Base-International Airport\"},{\"drzava\":\"US\",\"icao\":\"KCID\",\"lokacija\":{\"latitude\":\"-91.71080017089844\",\"longitude\":\"41.8847007\"},\"naziv\":\"The Eastern Iowa Airport\"},{\"drzava\":\"US\",\"icao\":\"KCLE\",\"lokacija\":{\"latitude\":\"-81.8498001099\",\"longitude\":\"41.4117012024\"},\"naziv\":\"Cleveland Hopkins International Airport\"},{\"drzava\":\"US\",\"icao\":\"KCLT\",\"lokacija\":{\"latitude\":\"-80.94309997558594\",\"longitude\":\"35.2140007\"},\"naziv\":\"Charlotte Douglas International Airport\"},{\"drzava\":\"US\",\"icao\":\"KCMH\",\"lokacija\":{\"latitude\":\"-82.891899\",\"longitude\":\"39.998001\"},\"naziv\":\"John Glenn Columbus International Airport\"},{\"drzava\":\"US\",\"icao\":\"KCRP\",\"lokacija\":{\"latitude\":\"-97.5011978149414\",\"longitude\":\"27.77039909\"},\"naziv\":\"Corpus Christi International Airport\"},{\"drzava\":\"US\",\"icao\":\"KCRW\",\"lokacija\":{\"latitude\":\"-81.59320068359375\",\"longitude\":\"38.3731002\"},\"naziv\":\"Yeager Airport\"},{\"drzava\":\"US\",\"icao\":\"KCVG\",\"lokacija\":{\"latitude\":\"-84.6678009033\",\"longitude\":\"39.0488014221\"},\"naziv\":\"Cincinnati Northern Kentucky International Airport\"},{\"drzava\":\"US\",\"icao\":\"KCVS\",\"lokacija\":{\"latitude\":\"-103.321998596\",\"longitude\":\"34.3828010559\"},\"naziv\":\"Cannon Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KDAB\",\"lokacija\":{\"latitude\":\"-81.058098\",\"longitude\":\"29.179899\"},\"naziv\":\"Daytona Beach International Airport\"},{\"drzava\":\"US\",\"icao\":\"KDAL\",\"lokacija\":{\"latitude\":\"-96.851799\",\"longitude\":\"32.847099\"},\"naziv\":\"Dallas Love Field\"},{\"drzava\":\"US\",\"icao\":\"KDAY\",\"lokacija\":{\"latitude\":\"-84.21939849853516\",\"longitude\":\"39.9024009\"},\"naziv\":\"James M Cox Dayton International Airport\"},{\"drzava\":\"US\",\"icao\":\"KDBQ\",\"lokacija\":{\"latitude\":\"-90.70950317\",\"longitude\":\"42.40200043\"},\"naziv\":\"Dubuque Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KDCA\",\"lokacija\":{\"latitude\":\"-77.037697\",\"longitude\":\"38.8521\"},\"naziv\":\"Ronald Reagan Washington National Airport\"},{\"drzava\":\"US\",\"icao\":\"KDEN\",\"lokacija\":{\"latitude\":\"-104.672996521\",\"longitude\":\"39.86169815063\"},\"naziv\":\"Denver International Airport\"},{\"drzava\":\"US\",\"icao\":\"KDFW\",\"lokacija\":{\"latitude\":\"-97.038002\",\"longitude\":\"32.896801\"},\"naziv\":\"Dallas Fort Worth International Airport\"},{\"drzava\":\"US\",\"icao\":\"KDLF\",\"lokacija\":{\"latitude\":\"-100.778002\",\"longitude\":\"29.359501\"},\"naziv\":\"DLF Airport\"},{\"drzava\":\"US\",\"icao\":\"KDLH\",\"lokacija\":{\"latitude\":\"-92.19360351559999\",\"longitude\":\"46.8420982\"},\"naziv\":\"Duluth International Airport\"},{\"drzava\":\"US\",\"icao\":\"KDOV\",\"lokacija\":{\"latitude\":\"-75.46600342\",\"longitude\":\"39.12950134\"},\"naziv\":\"Dover Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KDSM\",\"lokacija\":{\"latitude\":\"-93.66310119628906\",\"longitude\":\"41.5340003\"},\"naziv\":\"Des Moines International Airport\"},{\"drzava\":\"US\",\"icao\":\"KDTW\",\"lokacija\":{\"latitude\":\"-83.35340118408203\",\"longitude\":\"42.2123985\"},\"naziv\":\"Detroit Metropolitan Wayne County Airport\"},{\"drzava\":\"US\",\"icao\":\"KDYS\",\"lokacija\":{\"latitude\":\"-99.854598999\",\"longitude\":\"32.4207992554\"},\"naziv\":\"Dyess Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KEDW\",\"lokacija\":{\"latitude\":\"-117.884003\",\"longitude\":\"34.905399\"},\"naziv\":\"Edwards Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KEND\",\"lokacija\":{\"latitude\":\"-97.9164962769\",\"longitude\":\"36.33919906619\"},\"naziv\":\"Vance Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KERI\",\"lokacija\":{\"latitude\":\"-80.1738667488\",\"longitude\":\"42.0831270134\"},\"naziv\":\"Erie International Tom Ridge Field\"},{\"drzava\":\"US\",\"icao\":\"KEWR\",\"lokacija\":{\"latitude\":\"-74.168701171875\",\"longitude\":\"40.692501068\"},\"naziv\":\"Newark Liberty International Airport\"},{\"drzava\":\"US\",\"icao\":\"KFFO\",\"lokacija\":{\"latitude\":\"-84.0483016968\",\"longitude\":\"39.8260993958\"},\"naziv\":\"Wright-Patterson Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KFLL\",\"lokacija\":{\"latitude\":\"-80.152702\",\"longitude\":\"26.072599\"},\"naziv\":\"Fort Lauderdale Hollywood International Airport\"},{\"drzava\":\"US\",\"icao\":\"KFSM\",\"lokacija\":{\"latitude\":\"-94.36740112304688\",\"longitude\":\"35.3366012\"},\"naziv\":\"Fort Smith Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KFTW\",\"lokacija\":{\"latitude\":\"-97.362396\",\"longitude\":\"32.819801\"},\"naziv\":\"Fort Worth Meacham International Airport\"},{\"drzava\":\"US\",\"icao\":\"KFWA\",\"lokacija\":{\"latitude\":\"-85.19509888\",\"longitude\":\"40.97850037\"},\"naziv\":\"Fort Wayne International Airport\"},{\"drzava\":\"US\",\"icao\":\"KGEG\",\"lokacija\":{\"latitude\":\"-117.53399658203125\",\"longitude\":\"47.619899\"},\"naziv\":\"Spokane International Airport\"},{\"drzava\":\"US\",\"icao\":\"KGPT\",\"lokacija\":{\"latitude\":\"-89.07009887695312\",\"longitude\":\"30.4073009\"},\"naziv\":\"Gulfport Biloxi International Airport\"},{\"drzava\":\"US\",\"icao\":\"KGRB\",\"lokacija\":{\"latitude\":\"-88.12960052490234\",\"longitude\":\"44.4850997\"},\"naziv\":\"Austin Straubel International Airport\"},{\"drzava\":\"US\",\"icao\":\"KGSB\",\"lokacija\":{\"latitude\":\"-77.96060181\",\"longitude\":\"35.33940125\"},\"naziv\":\"Seymour Johnson Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KGSO\",\"lokacija\":{\"latitude\":\"-79.93730163574219\",\"longitude\":\"36.0978012\"},\"naziv\":\"Piedmont Triad International Airport\"},{\"drzava\":\"US\",\"icao\":\"KGSP\",\"lokacija\":{\"latitude\":\"-82.2189025879\",\"longitude\":\"34.8956985474\"},\"naziv\":\"Greenville Spartanburg International Airport\"},{\"drzava\":\"US\",\"icao\":\"KGUS\",\"lokacija\":{\"latitude\":\"-86.1520996094\",\"longitude\":\"40.64810180659\"},\"naziv\":\"Grissom Air Reserve Base\"},{\"drzava\":\"US\",\"icao\":\"KHIB\",\"lokacija\":{\"latitude\":\"-92.83899689\",\"longitude\":\"47.38660049\"},\"naziv\":\"Range Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KHMN\",\"lokacija\":{\"latitude\":\"-106.107002258\",\"longitude\":\"32.8525009155\"},\"naziv\":\"Holloman Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KHOU\",\"lokacija\":{\"latitude\":\"-95.27890015\",\"longitude\":\"29.64539909\"},\"naziv\":\"William P Hobby Airport\"},{\"drzava\":\"US\",\"icao\":\"KHSV\",\"lokacija\":{\"latitude\":\"-86.775100708008\",\"longitude\":\"34.637199401\"},\"naziv\":\"Huntsville International Carl T Jones Field\"},{\"drzava\":\"US\",\"icao\":\"KHTS\",\"lokacija\":{\"latitude\":\"-82.55799866\",\"longitude\":\"38.36669922\"},\"naziv\":\"Tri-State/Milton J. Ferguson Field\"},{\"drzava\":\"US\",\"icao\":\"KIAD\",\"lokacija\":{\"latitude\":\"-77.45580292\",\"longitude\":\"38.94449997\"},\"naziv\":\"Washington Dulles International Airport\"},{\"drzava\":\"US\",\"icao\":\"KIAH\",\"lokacija\":{\"latitude\":\"-95.34140014648438\",\"longitude\":\"29.9843997\"},\"naziv\":\"George Bush Intercontinental Houston Airport\"},{\"drzava\":\"US\",\"icao\":\"KICT\",\"lokacija\":{\"latitude\":\"-97.433098\",\"longitude\":\"37.649899\"},\"naziv\":\"Wichita Eisenhower National Airport\"},{\"drzava\":\"US\",\"icao\":\"KIND\",\"lokacija\":{\"latitude\":\"-86.294403\",\"longitude\":\"39.7173\"},\"naziv\":\"Indianapolis International Airport\"},{\"drzava\":\"US\",\"icao\":\"KJAN\",\"lokacija\":{\"latitude\":\"-90.0758972168\",\"longitude\":\"32.3111991882\"},\"naziv\":\"Jackson-Medgar Wiley Evers International Airport\"},{\"drzava\":\"US\",\"icao\":\"KJAX\",\"lokacija\":{\"latitude\":\"-81.68789672851562\",\"longitude\":\"30.4941005\"},\"naziv\":\"Jacksonville International Airport\"},{\"drzava\":\"US\",\"icao\":\"KJFK\",\"lokacija\":{\"latitude\":\"-73.77890015\",\"longitude\":\"40.63980103\"},\"naziv\":\"John F Kennedy International Airport\"},{\"drzava\":\"US\",\"icao\":\"KJLN\",\"lokacija\":{\"latitude\":\"-94.49829864501953\",\"longitude\":\"37.1517982\"},\"naziv\":\"Joplin Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KLAS\",\"lokacija\":{\"latitude\":\"-115.1520004\",\"longitude\":\"36.08010101\"},\"naziv\":\"McCarran International Airport\"},{\"drzava\":\"US\",\"icao\":\"KLAX\",\"lokacija\":{\"latitude\":\"-118.4079971\",\"longitude\":\"33.94250107\"},\"naziv\":\"Los Angeles International Airport\"},{\"drzava\":\"US\",\"icao\":\"KLBB\",\"lokacija\":{\"latitude\":\"-101.822998\",\"longitude\":\"33.663601\"},\"naziv\":\"Lubbock Preston Smith International Airport\"},{\"drzava\":\"US\",\"icao\":\"KLCK\",\"lokacija\":{\"latitude\":\"-82.927803\",\"longitude\":\"39.813801\"},\"naziv\":\"Rickenbacker International Airport\"},{\"drzava\":\"US\",\"icao\":\"KLEX\",\"lokacija\":{\"latitude\":\"-84.60590362548828\",\"longitude\":\"38.0364990\"},\"naziv\":\"Blue Grass Airport\"},{\"drzava\":\"US\",\"icao\":\"KLFI\",\"lokacija\":{\"latitude\":\"-76.360496521\",\"longitude\":\"37.082901001\"},\"naziv\":\"Langley Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KLFT\",\"lokacija\":{\"latitude\":\"-91.98760223\",\"longitude\":\"30.20529938\"},\"naziv\":\"Lafayette Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KLGA\",\"lokacija\":{\"latitude\":\"-73.87259674\",\"longitude\":\"40.77719879\"},\"naziv\":\"La Guardia Airport\"},{\"drzava\":\"US\",\"icao\":\"KLIT\",\"lokacija\":{\"latitude\":\"-92.2242965698\",\"longitude\":\"34.72940063479\"},\"naziv\":\"Bill & Hillary Clinton National Airport/Adams Field\"},{\"drzava\":\"US\",\"icao\":\"KLTS\",\"lokacija\":{\"latitude\":\"-99.2667007446\",\"longitude\":\"34.667098999\"},\"naziv\":\"Altus Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KLUF\",\"lokacija\":{\"latitude\":\"-112.383003235\",\"longitude\":\"33.53499984739\"},\"naziv\":\"Luke Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KMBS\",\"lokacija\":{\"latitude\":\"-84.07959747314453\",\"longitude\":\"43.5329017\"},\"naziv\":\"MBS International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMCF\",\"lokacija\":{\"latitude\":\"-82.52120209\",\"longitude\":\"27.84930038\"},\"naziv\":\"Mac Dill Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KMCI\",\"lokacija\":{\"latitude\":\"-94.713898\",\"longitude\":\"39.2976\"},\"naziv\":\"Kansas City International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMCO\",\"lokacija\":{\"latitude\":\"-81.30899810791016\",\"longitude\":\"28.4293994\"},\"naziv\":\"Orlando International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMDW\",\"lokacija\":{\"latitude\":\"-87.752403\",\"longitude\":\"41.785999\"},\"naziv\":\"Chicago Midway International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMEM\",\"lokacija\":{\"latitude\":\"-89.97669982910156\",\"longitude\":\"35.0424003\"},\"naziv\":\"Memphis International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMGE\",\"lokacija\":{\"latitude\":\"-84.51629639\",\"longitude\":\"33.91540146\"},\"naziv\":\"Dobbins Air Reserve Base\"},{\"drzava\":\"US\",\"icao\":\"KMGM\",\"lokacija\":{\"latitude\":\"-86.39399719\",\"longitude\":\"32.30059814\"},\"naziv\":\"Montgomery Regional (Dannelly Field) Airport\"},{\"drzava\":\"US\",\"icao\":\"KMIA\",\"lokacija\":{\"latitude\":\"-80.29060363769531\",\"longitude\":\"25.7931995\"},\"naziv\":\"Miami International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMKE\",\"lokacija\":{\"latitude\":\"-87.89659881591797\",\"longitude\":\"42.9472007\"},\"naziv\":\"General Mitchell International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMLI\",\"lokacija\":{\"latitude\":\"-90.50749969482422\",\"longitude\":\"41.4485015\"},\"naziv\":\"Quad City International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMLU\",\"lokacija\":{\"latitude\":\"-92.0376968383789\",\"longitude\":\"32.51089859\"},\"naziv\":\"Monroe Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KMOB\",\"lokacija\":{\"latitude\":\"-88.242797851562\",\"longitude\":\"30.691200256\"},\"naziv\":\"Mobile Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KMSN\",\"lokacija\":{\"latitude\":\"-89.3375015258789\",\"longitude\":\"43.13990020\"},\"naziv\":\"Dane County Regional Truax Field\"},{\"drzava\":\"US\",\"icao\":\"KMSP\",\"lokacija\":{\"latitude\":\"-93.221802\",\"longitude\":\"44.882\"},\"naziv\":\"Minneapolis-St Paul International/Wold-Chamberlain Airport\"},{\"drzava\":\"US\",\"icao\":\"KMSY\",\"lokacija\":{\"latitude\":\"-90.25800323486328\",\"longitude\":\"29.9934005\"},\"naziv\":\"Louis Armstrong New Orleans International Airport\"},{\"drzava\":\"US\",\"icao\":\"KMUO\",\"lokacija\":{\"latitude\":\"-115.872002\",\"longitude\":\"43.043598\"},\"naziv\":\"Mountain Home Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KOAK\",\"lokacija\":{\"latitude\":\"-122.221001\",\"longitude\":\"37.721298\"},\"naziv\":\"Metropolitan Oakland International Airport\"},{\"drzava\":\"US\",\"icao\":\"KOKC\",\"lokacija\":{\"latitude\":\"-97.60070037841797\",\"longitude\":\"35.3931007\"},\"naziv\":\"Will Rogers World Airport\"},{\"drzava\":\"US\",\"icao\":\"KOMA\",\"lokacija\":{\"latitude\":\"-95.894096\",\"longitude\":\"41.3032\"},\"naziv\":\"Eppley Airfield\"},{\"drzava\":\"US\",\"icao\":\"KONT\",\"lokacija\":{\"latitude\":\"-117.60099792480469\",\"longitude\":\"34.055999\"},\"naziv\":\"Ontario International Airport\"},{\"drzava\":\"US\",\"icao\":\"KORD\",\"lokacija\":{\"latitude\":\"-87.9048\",\"longitude\":\"41.9786\"},\"naziv\":\"Chicago O'Hare International Airport\"},{\"drzava\":\"US\",\"icao\":\"KORF\",\"lokacija\":{\"latitude\":\"-76.20120239257812\",\"longitude\":\"36.8945999\"},\"naziv\":\"Norfolk International Airport\"},{\"drzava\":\"US\",\"icao\":\"KPAM\",\"lokacija\":{\"latitude\":\"-85.57540130619999\",\"longitude\":\"30.0695991\"},\"naziv\":\"Tyndall Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KPBI\",\"lokacija\":{\"latitude\":\"-80.09559631347656\",\"longitude\":\"26.6832008\"},\"naziv\":\"Palm Beach International Airport\"},{\"drzava\":\"US\",\"icao\":\"KPDX\",\"lokacija\":{\"latitude\":\"-122.5979996\",\"longitude\":\"45.58869934\"},\"naziv\":\"Portland International Airport\"},{\"drzava\":\"US\",\"icao\":\"KPHF\",\"lokacija\":{\"latitude\":\"-76.49299622\",\"longitude\":\"37.13190079\"},\"naziv\":\"Newport News Williamsburg International Airport\"},{\"drzava\":\"US\",\"icao\":\"KPHL\",\"lokacija\":{\"latitude\":\"-75.24109649658203\",\"longitude\":\"39.8718986\"},\"naziv\":\"Philadelphia International Airport\"},{\"drzava\":\"US\",\"icao\":\"KPHX\",\"lokacija\":{\"latitude\":\"-112.01200103759766\",\"longitude\":\"33.434299\"},\"naziv\":\"Phoenix Sky Harbor International Airport\"},{\"drzava\":\"US\",\"icao\":\"KPIA\",\"lokacija\":{\"latitude\":\"-89.6932983398\",\"longitude\":\"40.66419982910\"},\"naziv\":\"General Wayne A. Downing Peoria International Airport\"},{\"drzava\":\"US\",\"icao\":\"KPIT\",\"lokacija\":{\"latitude\":\"-80.23290253\",\"longitude\":\"40.49150085\"},\"naziv\":\"Pittsburgh International Airport\"},{\"drzava\":\"US\",\"icao\":\"KPWM\",\"lokacija\":{\"latitude\":\"-70.30930328\",\"longitude\":\"43.64619827\"},\"naziv\":\"Portland International Jetport Airport\"},{\"drzava\":\"US\",\"icao\":\"KRDU\",\"lokacija\":{\"latitude\":\"-78.7874984741211\",\"longitude\":\"35.87760162\"},\"naziv\":\"Raleigh Durham International Airport\"},{\"drzava\":\"US\",\"icao\":\"KRFD\",\"lokacija\":{\"latitude\":\"-89.09719848632812\",\"longitude\":\"42.1954002\"},\"naziv\":\"Chicago Rockford International Airport\"},{\"drzava\":\"US\",\"icao\":\"KRIC\",\"lokacija\":{\"latitude\":\"-77.3197021484375\",\"longitude\":\"37.50519943\"},\"naziv\":\"Richmond International Airport\"},{\"drzava\":\"US\",\"icao\":\"KRND\",\"lokacija\":{\"latitude\":\"-98.27890015\",\"longitude\":\"29.52969933\"},\"naziv\":\"Randolph Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KRNO\",\"lokacija\":{\"latitude\":\"-119.76799774169922\",\"longitude\":\"39.499099\"},\"naziv\":\"Reno Tahoe International Airport\"},{\"drzava\":\"US\",\"icao\":\"KROC\",\"lokacija\":{\"latitude\":\"-77.67240142822266\",\"longitude\":\"43.1189002\"},\"naziv\":\"Greater Rochester International Airport\"},{\"drzava\":\"US\",\"icao\":\"KRST\",\"lokacija\":{\"latitude\":\"-92.5\",\"longitude\":\"43.90829849243164\"},\"naziv\":\"Rochester International Airport\"},{\"drzava\":\"US\",\"icao\":\"KRSW\",\"lokacija\":{\"latitude\":\"-81.75520324707031\",\"longitude\":\"26.5361995\"},\"naziv\":\"Southwest Florida International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSAN\",\"lokacija\":{\"latitude\":\"-117.190002441\",\"longitude\":\"32.7336006165\"},\"naziv\":\"San Diego International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSAT\",\"lokacija\":{\"latitude\":\"-98.46980285644531\",\"longitude\":\"29.5337009\"},\"naziv\":\"San Antonio International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSAV\",\"lokacija\":{\"latitude\":\"-81.20210266\",\"longitude\":\"32.12760162\"},\"naziv\":\"Savannah Hilton Head International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSBN\",\"lokacija\":{\"latitude\":\"-86.31729888916016\",\"longitude\":\"41.7086982\"},\"naziv\":\"South Bend Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KSDF\",\"lokacija\":{\"latitude\":\"-85.736\",\"longitude\":\"38.1744\"},\"naziv\":\"Louisville International Standiford Field\"},{\"drzava\":\"US\",\"icao\":\"KSEA\",\"lokacija\":{\"latitude\":\"-122.308998\",\"longitude\":\"47.449001\"},\"naziv\":\"Seattle Tacoma International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSFB\",\"lokacija\":{\"latitude\":\"-81.23750305175781\",\"longitude\":\"28.7775993\"},\"naziv\":\"Orlando Sanford International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSFO\",\"lokacija\":{\"latitude\":\"-122.375\",\"longitude\":\"37.61899948120117\"},\"naziv\":\"San Francisco International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSGF\",\"lokacija\":{\"latitude\":\"-93.38860321\",\"longitude\":\"37.24570084\"},\"naziv\":\"Springfield Branson National Airport\"},{\"drzava\":\"US\",\"icao\":\"KSJC\",\"lokacija\":{\"latitude\":\"-121.929001\",\"longitude\":\"37.362598\"},\"naziv\":\"Norman Y. Mineta San Jose International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSKA\",\"lokacija\":{\"latitude\":\"-117.65599823\",\"longitude\":\"47.6151008606\"},\"naziv\":\"Fairchild Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KSLC\",\"lokacija\":{\"latitude\":\"-111.97799682617188\",\"longitude\":\"40.788398\"},\"naziv\":\"Salt Lake City International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSMF\",\"lokacija\":{\"latitude\":\"-121.59100341796875\",\"longitude\":\"38.695400\"},\"naziv\":\"Sacramento International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSNA\",\"lokacija\":{\"latitude\":\"-117.8679962\",\"longitude\":\"33.67570114\"},\"naziv\":\"John Wayne Airport-Orange County Airport\"},{\"drzava\":\"US\",\"icao\":\"KSPI\",\"lokacija\":{\"latitude\":\"-89.67790222\",\"longitude\":\"39.84410095\"},\"naziv\":\"Abraham Lincoln Capital Airport\"},{\"drzava\":\"US\",\"icao\":\"KSPS\",\"lokacija\":{\"latitude\":\"-98.491898\",\"longitude\":\"33.9888\"},\"naziv\":\"Sheppard Air Force Base-Wichita Falls Municipal Airport\"},{\"drzava\":\"US\",\"icao\":\"KSRQ\",\"lokacija\":{\"latitude\":\"-82.55439758300781\",\"longitude\":\"27.3953990\"},\"naziv\":\"Sarasota Bradenton International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSSC\",\"lokacija\":{\"latitude\":\"-80.47059631\",\"longitude\":\"33.97269821\"},\"naziv\":\"Shaw Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KSTL\",\"lokacija\":{\"latitude\":\"-90.370003\",\"longitude\":\"38.748697\"},\"naziv\":\"St Louis Lambert International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSUS\",\"lokacija\":{\"latitude\":\"-90.652000427246\",\"longitude\":\"38.662101745\"},\"naziv\":\"Spirit of St Louis Airport\"},{\"drzava\":\"US\",\"icao\":\"KSUU\",\"lokacija\":{\"latitude\":\"-121.92700195312\",\"longitude\":\"38.262699127\"},\"naziv\":\"Travis Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KSUX\",\"lokacija\":{\"latitude\":\"-96.38439941\",\"longitude\":\"42.40259933\"},\"naziv\":\"Sioux Gateway Col. Bud Day Field\"},{\"drzava\":\"US\",\"icao\":\"KSYR\",\"lokacija\":{\"latitude\":\"-76.1063003540039\",\"longitude\":\"43.11119842\"},\"naziv\":\"Syracuse Hancock International Airport\"},{\"drzava\":\"US\",\"icao\":\"KSZL\",\"lokacija\":{\"latitude\":\"-93.547897338867\",\"longitude\":\"38.730300903\"},\"naziv\":\"Whiteman Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KTCM\",\"lokacija\":{\"latitude\":\"-122.475997925\",\"longitude\":\"47.1376991272\"},\"naziv\":\"McChord Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KTIK\",\"lokacija\":{\"latitude\":\"-97.386596679688\",\"longitude\":\"35.414699554\"},\"naziv\":\"Tinker Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KTLH\",\"lokacija\":{\"latitude\":\"-84.35030364990234\",\"longitude\":\"30.3964996\"},\"naziv\":\"Tallahassee Regional Airport\"},{\"drzava\":\"US\",\"icao\":\"KTOL\",\"lokacija\":{\"latitude\":\"-83.80780029\",\"longitude\":\"41.58679962\"},\"naziv\":\"Toledo Express Airport\"},{\"drzava\":\"US\",\"icao\":\"KTPA\",\"lokacija\":{\"latitude\":\"-82.533203125\",\"longitude\":\"27.975500106811\"},\"naziv\":\"Tampa International Airport\"},{\"drzava\":\"US\",\"icao\":\"KTRI\",\"lokacija\":{\"latitude\":\"-82.407401\",\"longitude\":\"36.475201\"},\"naziv\":\"Tri-Cities Regional TN/VA Airport\"},{\"drzava\":\"US\",\"icao\":\"KTUL\",\"lokacija\":{\"latitude\":\"-95.88809967041016\",\"longitude\":\"36.1983985\"},\"naziv\":\"Tulsa International Airport\"},{\"drzava\":\"US\",\"icao\":\"KTUS\",\"lokacija\":{\"latitude\":\"-110.94100189208984\",\"longitude\":\"32.116100\"},\"naziv\":\"Tucson International Airport\"},{\"drzava\":\"US\",\"icao\":\"KTYS\",\"lokacija\":{\"latitude\":\"-83.9940033\",\"longitude\":\"35.81100082\"},\"naziv\":\"McGhee Tyson Airport\"},{\"drzava\":\"US\",\"icao\":\"KVBG\",\"lokacija\":{\"latitude\":\"-120.583999634\",\"longitude\":\"34.7373008728\"},\"naziv\":\"Vandenberg Air Force Base\"},{\"drzava\":\"US\",\"icao\":\"KVPS\",\"lokacija\":{\"latitude\":\"-86.525398\",\"longitude\":\"30.4832\"},\"naziv\":\"Destin-Ft Walton Beach Airport\"},{\"drzava\":\"US\",\"icao\":\"KWRB\",\"lokacija\":{\"latitude\":\"-83.5919036865\",\"longitude\":\"32.6400985718\"},\"naziv\":\"Robins Air Force Base\"},{\"drzava\":\"AL\",\"icao\":\"LATI\",\"lokacija\":{\"latitude\":\"19.7206001282\",\"longitude\":\"41.4146995544\"},\"naziv\":\"Tirana International Airport Mother Teresa\"},{\"drzava\":\"BG\",\"icao\":\"LBBG\",\"lokacija\":{\"latitude\":\"27.515199661254883\",\"longitude\":\"42.5695991\"},\"naziv\":\"Burgas Airport\"},{\"drzava\":\"BG\",\"icao\":\"LBSF\",\"lokacija\":{\"latitude\":\"23.411436080932617\",\"longitude\":\"42.6966934\"},\"naziv\":\"Sofia Airport\"},{\"drzava\":\"BG\",\"icao\":\"LBWN\",\"lokacija\":{\"latitude\":\"27.8251\",\"longitude\":\"43.232101\"},\"naziv\":\"Varna Airport\"},{\"drzava\":\"CY\",\"icao\":\"LCLK\",\"lokacija\":{\"latitude\":\"33.624900817871094\",\"longitude\":\"34.8750991\"},\"naziv\":\"Larnaca International Airport\"},{\"drzava\":\"CY\",\"icao\":\"LCPH\",\"lokacija\":{\"latitude\":\"32.48569869995117\",\"longitude\":\"34.71799850\"},\"naziv\":\"Paphos International Airport\"},{\"drzava\":\"GB\",\"icao\":\"LCRA\",\"lokacija\":{\"latitude\":\"32.9879\",\"longitude\":\"34.590401\"},\"naziv\":\"RAF Akrotiri\"},{\"drzava\":\"HR\",\"icao\":\"LDZA\",\"lokacija\":{\"latitude\":\"16.0687999725\",\"longitude\":\"45.7429008484\"},\"naziv\":\"Zagreb Airport\"},{\"drzava\":\"ES\",\"icao\":\"LEAL\",\"lokacija\":{\"latitude\":\"-0.5581560134887695\",\"longitude\":\"38.282199\"},\"naziv\":\"Alicante International Airport\"},{\"drzava\":\"ES\",\"icao\":\"LEBL\",\"lokacija\":{\"latitude\":\"2.07846\",\"longitude\":\"41.2971\"},\"naziv\":\"Barcelona International Airport\"},{\"drzava\":\"ES\",\"icao\":\"LEPA\",\"lokacija\":{\"latitude\":\"2.73881006241\",\"longitude\":\"39.551700592\"},\"naziv\":\"Palma De Mallorca Airport\"},{\"drzava\":\"ES\",\"icao\":\"LEST\",\"lokacija\":{\"latitude\":\"-8.415140151977539\",\"longitude\":\"42.8963012\"},\"naziv\":\"Santiago de Compostela Airport\"},{\"drzava\":\"FR\",\"icao\":\"LFBO\",\"lokacija\":{\"latitude\":\"1.36382\",\"longitude\":\"43.629101\"},\"naziv\":\"Toulouse-Blagnac Airport\"},{\"drzava\":\"FR\",\"icao\":\"LFML\",\"lokacija\":{\"latitude\":\"5.22142410278\",\"longitude\":\"43.439271922\"},\"naziv\":\"Marseille Provence Airport\"},{\"drzava\":\"FR\",\"icao\":\"LFOA\",\"lokacija\":{\"latitude\":\"2.6325\",\"longitude\":\"47.053299\"},\"naziv\":\"Avord (BA 702) Air Base\"},{\"drzava\":\"FR\",\"icao\":\"LFPG\",\"lokacija\":{\"latitude\":\"2.55\",\"longitude\":\"49.012798\"},\"naziv\":\"Charles de Gaulle International Airport\"},{\"drzava\":\"FR\",\"icao\":\"LFPO\",\"lokacija\":{\"latitude\":\"2.3794444\",\"longitude\":\"48.7233333\"},\"naziv\":\"Paris-Orly Airport\"},{\"drzava\":\"FR\",\"icao\":\"LFSB\",\"lokacija\":{\"latitude\":\"7.5291667\",\"longitude\":\"47.59\"},\"naziv\":\"EuroAirport Basel-Mulhouse-Freiburg Airport\"},{\"drzava\":\"GR\",\"icao\":\"LGAV\",\"lokacija\":{\"latitude\":\"23.9444999695\",\"longitude\":\"37.9364013672\"},\"naziv\":\"Eleftherios Venizelos International Airport\"},{\"drzava\":\"GR\",\"icao\":\"LGIR\",\"lokacija\":{\"latitude\":\"25.180299758900002\",\"longitude\":\"35.3396987\"},\"naziv\":\"Heraklion International Nikos Kazantzakis Airport\"},{\"drzava\":\"GR\",\"icao\":\"LGTS\",\"lokacija\":{\"latitude\":\"22.97089958190918\",\"longitude\":\"40.51969909\"},\"naziv\":\"Thessaloniki Macedonia International Airport\"},{\"drzava\":\"HU\",\"icao\":\"LHBP\",\"lokacija\":{\"latitude\":\"19.261093\",\"longitude\":\"47.42976\"},\"naziv\":\"Budapest Liszt Ferenc International Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIEE\",\"lokacija\":{\"latitude\":\"9.05428\",\"longitude\":\"39.251499\"},\"naziv\":\"Cagliari Elmas Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIMC\",\"lokacija\":{\"latitude\":\"8.72811\",\"longitude\":\"45.6306\"},\"naziv\":\"Malpensa International Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIME\",\"lokacija\":{\"latitude\":\"9.70417\",\"longitude\":\"45.673901\"},\"naziv\":\"Il Caravaggio International Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIMF\",\"lokacija\":{\"latitude\":\"7.64963\",\"longitude\":\"45.200802\"},\"naziv\":\"Turin Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIMJ\",\"lokacija\":{\"latitude\":\"8.8375\",\"longitude\":\"44.4133\"},\"naziv\":\"Genoa Cristoforo Colombo Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIML\",\"lokacija\":{\"latitude\":\"9.27674\",\"longitude\":\"45.445099\"},\"naziv\":\"Milano Linate Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIPE\",\"lokacija\":{\"latitude\":\"11.2887\",\"longitude\":\"44.5354\"},\"naziv\":\"Bologna Guglielmo Marconi Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIPH\",\"lokacija\":{\"latitude\":\"12.1944\",\"longitude\":\"45.648399\"},\"naziv\":\"Treviso-Sant'Angelo Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIPX\",\"lokacija\":{\"latitude\":\"10.8885\",\"longitude\":\"45.395699\"},\"naziv\":\"Verona Villafranca Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIPZ\",\"lokacija\":{\"latitude\":\"12.3519\",\"longitude\":\"45.505299\"},\"naziv\":\"Venice Marco Polo Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIRN\",\"lokacija\":{\"latitude\":\"14.2908\",\"longitude\":\"40.886002\"},\"naziv\":\"Naples International Airport\"},{\"drzava\":\"IT\",\"icao\":\"LIRP\",\"lokacija\":{\"latitude\":\"10.3927\",\"longitude\":\"43.683899\"},\"naziv\":\"Pisa International Airport\"},{\"drzava\":\"IL\",\"icao\":\"LLBG\",\"lokacija\":{\"latitude\":\"34.88669967651367\",\"longitude\":\"32.01139831\"},\"naziv\":\"Ben Gurion International Airport\"},{\"drzava\":\"IL\",\"icao\":\"LLOV\",\"lokacija\":{\"latitude\":\"34.93579864501953\",\"longitude\":\"29.94029998\"},\"naziv\":\"Ovda International Airport\"},{\"drzava\":\"MT\",\"icao\":\"LMML\",\"lokacija\":{\"latitude\":\"14.4775\",\"longitude\":\"35.857498\"},\"naziv\":\"Malta International Airport\"},{\"drzava\":\"AT\",\"icao\":\"LOWW\",\"lokacija\":{\"latitude\":\"16.569700241089\",\"longitude\":\"48.1102981567\"},\"naziv\":\"Vienna International Airport\"},{\"drzava\":\"PT\",\"icao\":\"LPFR\",\"lokacija\":{\"latitude\":\"-7.96590995789\",\"longitude\":\"37.0144004822\"},\"naziv\":\"Faro Airport\"},{\"drzava\":\"PT\",\"icao\":\"LPPT\",\"lokacija\":{\"latitude\":\"-9.13592\",\"longitude\":\"38.7813\"},\"naziv\":\"Humberto Delgado Airport (Lisbon Portela Airport)\"},{\"drzava\":\"BA\",\"icao\":\"LQSA\",\"lokacija\":{\"latitude\":\"18.331499099731445\",\"longitude\":\"43.8246002\"},\"naziv\":\"Sarajevo International Airport\"},{\"drzava\":\"CH\",\"icao\":\"LSGG\",\"lokacija\":{\"latitude\":\"6.108950138092041\",\"longitude\":\"46.23809814\"},\"naziv\":\"Geneva Cointrin International Airport\"},{\"drzava\":\"CH\",\"icao\":\"LSZH\",\"lokacija\":{\"latitude\":\"8.54917\",\"longitude\":\"47.464699\"},\"naziv\":\"Zuerich Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTAF\",\"lokacija\":{\"latitude\":\"35.280399322499996\",\"longitude\":\"36.9822006\"},\"naziv\":\"Adana Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTAI\",\"lokacija\":{\"latitude\":\"30.800501\",\"longitude\":\"36.898701\"},\"naziv\":\"Antalya International Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTAJ\",\"lokacija\":{\"latitude\":\"37.4786987305\",\"longitude\":\"36.9472007751\"},\"naziv\":\"Gaziantep International Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTBA\",\"lokacija\":{\"latitude\":\"28.8146\",\"longitude\":\"40.976898\"},\"naziv\":\"Ataturk International Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTBJ\",\"lokacija\":{\"latitude\":\"27.156999588\",\"longitude\":\"38.2924003601\"},\"naziv\":\"Adnan Menderes International Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTBS\",\"lokacija\":{\"latitude\":\"28.7924995422\",\"longitude\":\"36.7131004333\"},\"naziv\":\"Dalaman International Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTCE\",\"lokacija\":{\"latitude\":\"41.17020034789999\",\"longitude\":\"39.95650100\"},\"naziv\":\"Erzurum International Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTCG\",\"lokacija\":{\"latitude\":\"39.78969955444336\",\"longitude\":\"40.99509811\"},\"naziv\":\"Trabzon International Airport\"},{\"drzava\":\"TR\",\"icao\":\"LTFE\",\"lokacija\":{\"latitude\":\"27.6643009186\",\"longitude\":\"37.250598907499\"},\"naziv\":\"Milas Bodrum International Airport\"},{\"drzava\":\"MK\",\"icao\":\"LWSK\",\"lokacija\":{\"latitude\":\"21.621401\",\"longitude\":\"41.961601\"},\"naziv\":\"Skopje Alexander the Great Airport\"},{\"drzava\":\"RS\",\"icao\":\"LYBE\",\"lokacija\":{\"latitude\":\"20.3090991974\",\"longitude\":\"44.8184013367\"},\"naziv\":\"Belgrade Nikola Tesla Airport\"},{\"drzava\":\"ME\",\"icao\":\"LYPG\",\"lokacija\":{\"latitude\":\"19.2519\",\"longitude\":\"42.359402\"},\"naziv\":\"Podgorica Airport\"},{\"drzava\":\"SI\",\"icao\":\"LJLJ\",\"lokacija\":{\"latitude\":\"14.4576\",\"longitude\":\"46.223701\"},\"naziv\":\"Ljubljana Jože Pušnik Airport\"},{\"drzava\":\"DO\",\"icao\":\"MDPC\",\"lokacija\":{\"latitude\":\"-68.36340332030001\",\"longitude\":\"18.5673999\"},\"naziv\":\"Punta Cana International Airport\"},{\"drzava\":\"GT\",\"icao\":\"MGGT\",\"lokacija\":{\"latitude\":\"-90.527496\",\"longitude\":\"14.5833\"},\"naziv\":\"La Aurora Airport\"},{\"drzava\":\"JM\",\"icao\":\"MKJP\",\"lokacija\":{\"latitude\":\"-76.7874984741211\",\"longitude\":\"17.93569946\"},\"naziv\":\"Norman Manley International Airport\"},{\"drzava\":\"MX\",\"icao\":\"MMAA\",\"lokacija\":{\"latitude\":\"-99.75399780273438\",\"longitude\":\"16.7570991\"},\"naziv\":\"General Juan N Alvarez International Airport\"},{\"drzava\":\"MX\",\"icao\":\"MMGL\",\"lokacija\":{\"latitude\":\"-103.31099700927734\",\"longitude\":\"20.521799\"},\"naziv\":\"Don Miguel Hidalgo Y Costilla International Airport\"},{\"drzava\":\"MX\",\"icao\":\"MMHO\",\"lokacija\":{\"latitude\":\"-111.047996521\",\"longitude\":\"29.09589958190\"},\"naziv\":\"General Ignacio P. Garcia International Airport\"},{\"drzava\":\"MX\",\"icao\":\"MMMX\",\"lokacija\":{\"latitude\":\"-99.072098\",\"longitude\":\"19.4363\"},\"naziv\":\"Licenciado Benito Juarez International Airport\"},{\"drzava\":\"MX\",\"icao\":\"MMMY\",\"lokacija\":{\"latitude\":\"-100.107002258\",\"longitude\":\"25.7784996033\"},\"naziv\":\"General Mariano Escobedo International Airport\"},{\"drzava\":\"MX\",\"icao\":\"MMSD\",\"lokacija\":{\"latitude\":\"-109.72100067138672\",\"longitude\":\"23.151800\"},\"naziv\":\"Los Cabos International Airport\"},{\"drzava\":\"PA\",\"icao\":\"MPTO\",\"lokacija\":{\"latitude\":\"-79.3834991455\",\"longitude\":\"9.0713596344\"},\"naziv\":\"Tocumen International Airport\"},{\"drzava\":\"CR\",\"icao\":\"MRLB\",\"lokacija\":{\"latitude\":\"-85.544403\",\"longitude\":\"10.5933\"},\"naziv\":\"Daniel Oduber Quiros International Airport\"},{\"drzava\":\"CU\",\"icao\":\"MUVR\",\"lokacija\":{\"latitude\":\"-81.435302734375\",\"longitude\":\"23.034400939\"},\"naziv\":\"Juan Gualberto Gomez International Airport\"},{\"drzava\":\"KY\",\"icao\":\"MWCR\",\"lokacija\":{\"latitude\":\"-81.3576965332\",\"longitude\":\"19.29280090329\"},\"naziv\":\"Owen Roberts International Airport\"},{\"drzava\":\"BS\",\"icao\":\"MYNN\",\"lokacija\":{\"latitude\":\"-77.46620178219999\",\"longitude\":\"25.0389995\"},\"naziv\":\"Lynden Pindling International Airport\"},{\"drzava\":\"BZ\",\"icao\":\"MZBZ\",\"lokacija\":{\"latitude\":\"-88.30819702148438\",\"longitude\":\"17.5391006\"},\"naziv\":\"Philip S. W. Goldson International Airport\"},{\"drzava\":\"CK\",\"icao\":\"NCRG\",\"lokacija\":{\"latitude\":\"-159.805999756\",\"longitude\":\"-21.2026996613\"},\"naziv\":\"Rarotonga International Airport\"},{\"drzava\":\"PF\",\"icao\":\"NTAA\",\"lokacija\":{\"latitude\":\"-149.606995\",\"longitude\":\"-17.553699\"},\"naziv\":\"Faa'a International Airport\"},{\"drzava\":\"NZ\",\"icao\":\"NZAA\",\"lokacija\":{\"latitude\":\"174.792007446\",\"longitude\":\"-37.00809860229\"},\"naziv\":\"Auckland International Airport\"},{\"drzava\":\"NZ\",\"icao\":\"NZCH\",\"lokacija\":{\"latitude\":\"172.53199768066406\",\"longitude\":\"-43.489398\"},\"naziv\":\"Christchurch International Airport\"},{\"drzava\":\"NZ\",\"icao\":\"NZWN\",\"lokacija\":{\"latitude\":\"174.804992676\",\"longitude\":\"-41.3272018433\"},\"naziv\":\"Wellington International Airport\"},{\"drzava\":\"BH\",\"icao\":\"OBBI\",\"lokacija\":{\"latitude\":\"50.63359832763672\",\"longitude\":\"26.27079963\"},\"naziv\":\"Bahrain International Airport\"},{\"drzava\":\"SA\",\"icao\":\"OEDF\",\"lokacija\":{\"latitude\":\"49.79790115356445\",\"longitude\":\"26.47120094\"},\"naziv\":\"King Fahd International Airport\"},{\"drzava\":\"SA\",\"icao\":\"OEDR\",\"lokacija\":{\"latitude\":\"50.152000427199994\",\"longitude\":\"26.2653999\"},\"naziv\":\"King Abdulaziz Air Base\"},{\"drzava\":\"SA\",\"icao\":\"OEJN\",\"lokacija\":{\"latitude\":\"39.156502\",\"longitude\":\"21.6796\"},\"naziv\":\"King Abdulaziz International Airport\"},{\"drzava\":\"SA\",\"icao\":\"OEMA\",\"lokacija\":{\"latitude\":\"39.705101\",\"longitude\":\"24.5534\"},\"naziv\":\"Prince Mohammad Bin Abdulaziz Airport\"},{\"drzava\":\"SA\",\"icao\":\"OERK\",\"lokacija\":{\"latitude\":\"46.69879913330078\",\"longitude\":\"24.95759963\"},\"naziv\":\"King Khaled International Airport\"},{\"drzava\":\"IR\",\"icao\":\"OIIE\",\"lokacija\":{\"latitude\":\"51.152198791503906\",\"longitude\":\"35.4160995\"},\"naziv\":\"Imam Khomeini International Airport\"},{\"drzava\":\"IR\",\"icao\":\"OIII\",\"lokacija\":{\"latitude\":\"51.31340026855469\",\"longitude\":\"35.68920135\"},\"naziv\":\"Mehrabad International Airport\"},{\"drzava\":\"IR\",\"icao\":\"OIMM\",\"lokacija\":{\"latitude\":\"59.64099884033203\",\"longitude\":\"36.23519897\"},\"naziv\":\"Mashhad International Airport\"},{\"drzava\":\"IR\",\"icao\":\"OISS\",\"lokacija\":{\"latitude\":\"52.58980178833008\",\"longitude\":\"29.53919982\"},\"naziv\":\"Shiraz Shahid Dastghaib International Airport\"},{\"drzava\":\"IR\",\"icao\":\"OITT\",\"lokacija\":{\"latitude\":\"46.23500061035156\",\"longitude\":\"38.13389968\"},\"naziv\":\"Tabriz International Airport\"},{\"drzava\":\"JO\",\"icao\":\"OJAI\",\"lokacija\":{\"latitude\":\"35.9931983948\",\"longitude\":\"31.7226009369\"},\"naziv\":\"Queen Alia International Airport\"},{\"drzava\":\"KW\",\"icao\":\"OKBK\",\"lokacija\":{\"latitude\":\"47.96889877319336\",\"longitude\":\"29.22660064\"},\"naziv\":\"Kuwait International Airport\"},{\"drzava\":\"LB\",\"icao\":\"OLBA\",\"lokacija\":{\"latitude\":\"35.488399505615234\",\"longitude\":\"33.8208999\"},\"naziv\":\"Beirut Rafic Hariri International Airport\"},{\"drzava\":\"AE\",\"icao\":\"OMAA\",\"lokacija\":{\"latitude\":\"54.651100158691406\",\"longitude\":\"24.4330005\"},\"naziv\":\"Abu Dhabi International Airport\"},{\"drzava\":\"AE\",\"icao\":\"OMDB\",\"lokacija\":{\"latitude\":\"55.3643989563\",\"longitude\":\"25.2527999878\"},\"naziv\":\"Dubai International Airport\"},{\"drzava\":\"AE\",\"icao\":\"OMDW\",\"lokacija\":{\"latitude\":\"55.161389\",\"longitude\":\"24.896356\"},\"naziv\":\"Al Maktoum International Airport\"},{\"drzava\":\"AE\",\"icao\":\"OMSJ\",\"lokacija\":{\"latitude\":\"55.5172004699707\",\"longitude\":\"25.328599929\"},\"naziv\":\"Sharjah International Airport\"},{\"drzava\":\"OM\",\"icao\":\"OOMS\",\"lokacija\":{\"latitude\":\"58.284400939941406\",\"longitude\":\"23.5932998\"},\"naziv\":\"Muscat International Airport\"},{\"drzava\":\"PK\",\"icao\":\"OPST\",\"lokacija\":{\"latitude\":\"74.3638916016\",\"longitude\":\"32.5355567932\"},\"naziv\":\"Sialkot Airport\"},{\"drzava\":\"IQ\",\"icao\":\"ORBI\",\"lokacija\":{\"latitude\":\"44.2346000671\",\"longitude\":\"33.262500762900\"},\"naziv\":\"Baghdad International Airport\"},{\"drzava\":\"IQ\",\"icao\":\"ORMM\",\"lokacija\":{\"latitude\":\"47.66210174560547\",\"longitude\":\"30.54910087\"},\"naziv\":\"Basrah International Airport\"},{\"drzava\":\"SY\",\"icao\":\"OSAP\",\"lokacija\":{\"latitude\":\"37.22439956665039\",\"longitude\":\"36.18069839\"},\"naziv\":\"Aleppo International Airport\"},{\"drzava\":\"SY\",\"icao\":\"OSDI\",\"lokacija\":{\"latitude\":\"36.51559829711914\",\"longitude\":\"33.41149902\"},\"naziv\":\"Damascus International Airport\"},{\"drzava\":\"SY\",\"icao\":\"OSLK\",\"lokacija\":{\"latitude\":\"35.948699951171875\",\"longitude\":\"35.4011001\"},\"naziv\":\"Bassel Al-Assad International Airport\"},{\"drzava\":\"US\",\"icao\":\"PAFA\",\"lokacija\":{\"latitude\":\"-147.8560028\",\"longitude\":\"64.81510162\"},\"naziv\":\"Fairbanks International Airport\"},{\"drzava\":\"US\",\"icao\":\"PANC\",\"lokacija\":{\"latitude\":\"-149.99600219726562\",\"longitude\":\"61.174400\"},\"naziv\":\"Ted Stevens Anchorage International Airport\"},{\"drzava\":\"US\",\"icao\":\"PHNL\",\"lokacija\":{\"latitude\":\"-157.924228\",\"longitude\":\"21.32062\"},\"naziv\":\"Daniel K Inouye International Airport\"},{\"drzava\":\"TW\",\"icao\":\"RCBS\",\"lokacija\":{\"latitude\":\"118.359001\",\"longitude\":\"24.4279\"},\"naziv\":\"Kinmen Airport\"},{\"drzava\":\"TW\",\"icao\":\"RCKH\",\"lokacija\":{\"latitude\":\"120.3499984741211\",\"longitude\":\"22.57710075\"},\"naziv\":\"Kaohsiung International Airport\"},{\"drzava\":\"TW\",\"icao\":\"RCTP\",\"lokacija\":{\"latitude\":\"121.233002\",\"longitude\":\"25.0777\"},\"naziv\":\"Taiwan Taoyuan International Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJAA\",\"lokacija\":{\"latitude\":\"140.386001587\",\"longitude\":\"35.7647018433\"},\"naziv\":\"Narita International Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJBB\",\"lokacija\":{\"latitude\":\"135.24400329589844\",\"longitude\":\"34.4272994\"},\"naziv\":\"Kansai International Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJCC\",\"lokacija\":{\"latitude\":\"141.69200134277344\",\"longitude\":\"42.7751998\"},\"naziv\":\"New Chitose Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJFF\",\"lokacija\":{\"latitude\":\"130.4510040283203\",\"longitude\":\"33.58589935\"},\"naziv\":\"Fukuoka Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJFK\",\"lokacija\":{\"latitude\":\"130.718994140625\",\"longitude\":\"31.803400039\"},\"naziv\":\"Kagoshima Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJGG\",\"lokacija\":{\"latitude\":\"136.80499267578125\",\"longitude\":\"34.8583984\"},\"naziv\":\"Chubu Centrair International Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJOO\",\"lokacija\":{\"latitude\":\"135.43800354003906\",\"longitude\":\"34.7854995\"},\"naziv\":\"Osaka International Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJTT\",\"lokacija\":{\"latitude\":\"139.779999\",\"longitude\":\"35.552299\"},\"naziv\":\"Tokyo Haneda International Airport\"},{\"drzava\":\"JP\",\"icao\":\"RJTY\",\"lokacija\":{\"latitude\":\"139.34800720214844\",\"longitude\":\"35.7485008\"},\"naziv\":\"Yokota Air Base\"},{\"drzava\":\"KR\",\"icao\":\"RKJB\",\"lokacija\":{\"latitude\":\"126.382814\",\"longitude\":\"34.991406\"},\"naziv\":\"Muan International Airport\"},{\"drzava\":\"KR\",\"icao\":\"RKJK\",\"lokacija\":{\"latitude\":\"126.61599731445312\",\"longitude\":\"35.9038009\"},\"naziv\":\"Kunsan Air Base\"},{\"drzava\":\"KR\",\"icao\":\"RKPC\",\"lokacija\":{\"latitude\":\"126.49299621582031\",\"longitude\":\"33.5112991\"},\"naziv\":\"Jeju International Airport\"},{\"drzava\":\"KR\",\"icao\":\"RKPK\",\"lokacija\":{\"latitude\":\"128.93800354\",\"longitude\":\"35.1795005798\"},\"naziv\":\"Gimhae International Airport\"},{\"drzava\":\"KR\",\"icao\":\"RKSI\",\"lokacija\":{\"latitude\":\"126.45099639892578\",\"longitude\":\"37.4691009\"},\"naziv\":\"Incheon International Airport\"},{\"drzava\":\"KR\",\"icao\":\"RKSO\",\"lokacija\":{\"latitude\":\"127.029999\",\"longitude\":\"37.090599\"},\"naziv\":\"Osan Air Base\"},{\"drzava\":\"KR\",\"icao\":\"RKSS\",\"lokacija\":{\"latitude\":\"126.791\",\"longitude\":\"37.5583\"},\"naziv\":\"Gimpo International Airport\"},{\"drzava\":\"KR\",\"icao\":\"RKTU\",\"lokacija\":{\"latitude\":\"127.498741\",\"longitude\":\"36.717008\"},\"naziv\":\"Cheongju International Airport/Cheongju Air Base (K-59/G-513)\"},{\"drzava\":\"JP\",\"icao\":\"ROAH\",\"lokacija\":{\"latitude\":\"127.646003723\",\"longitude\":\"26.1958007812\"},\"naziv\":\"Naha Airport\"},{\"drzava\":\"JP\",\"icao\":\"RODN\",\"lokacija\":{\"latitude\":\"127.767998\",\"longitude\":\"26.3556\"},\"naziv\":\"Kadena Air Base\"},{\"drzava\":\"PH\",\"icao\":\"RPLC\",\"lokacija\":{\"latitude\":\"120.559998\",\"longitude\":\"15.186\"},\"naziv\":\"Diosdado Macapagal International Airport\"},{\"drzava\":\"PH\",\"icao\":\"RPLL\",\"lokacija\":{\"latitude\":\"121.019997\",\"longitude\":\"14.5086\"},\"naziv\":\"Ninoy Aquino International Airport\"},{\"drzava\":\"PH\",\"icao\":\"RPMD\",\"lokacija\":{\"latitude\":\"125.64600372314453\",\"longitude\":\"7.12552022\"},\"naziv\":\"Francisco Bangoy International Airport\"},{\"drzava\":\"PH\",\"icao\":\"RPVM\",\"lokacija\":{\"latitude\":\"123.97899627686\",\"longitude\":\"10.3074998855\"},\"naziv\":\"Mactan Cebu International Airport\"},{\"drzava\":\"AR\",\"icao\":\"SAEZ\",\"lokacija\":{\"latitude\":\"-58.5358\",\"longitude\":\"-34.8222\"},\"naziv\":\"Ministro Pistarini International Airport\"},{\"drzava\":\"BR\",\"icao\":\"SBBR\",\"lokacija\":{\"latitude\":\"-47.920833587646484\",\"longitude\":\"-15.86916\"},\"naziv\":\"Presidente Juscelino Kubistschek International Airport\"},{\"drzava\":\"BR\",\"icao\":\"SBCF\",\"lokacija\":{\"latitude\":\"-43.97194290161133\",\"longitude\":\"-19.624443\"},\"naziv\":\"Tancredo Neves International Airport\"},{\"drzava\":\"BR\",\"icao\":\"SBCT\",\"lokacija\":{\"latitude\":\"-49.1758003235\",\"longitude\":\"-25.5284996033\"},\"naziv\":\"Afonso Pena Airport\"},{\"drzava\":\"BR\",\"icao\":\"SBSP\",\"lokacija\":{\"latitude\":\"-46.65638732910156\",\"longitude\":\"-23.626110\"},\"naziv\":\"Congonhas Airport\"},{\"drzava\":\"EC\",\"icao\":\"SELT\",\"lokacija\":{\"latitude\":\"-78.615799\",\"longitude\":\"-0.906833\"},\"naziv\":\"Cotopaxi International Airport\"},{\"drzava\":\"EC\",\"icao\":\"SEQM\",\"lokacija\":{\"latitude\":\"-78.3575\",\"longitude\":\"-0.129166666667\"},\"naziv\":\"Mariscal Sucre International Airport\"},{\"drzava\":\"CO\",\"icao\":\"SKBO\",\"lokacija\":{\"latitude\":\"-74.1469\",\"longitude\":\"4.70159\"},\"naziv\":\"El Dorado International Airport\"},{\"drzava\":\"BO\",\"icao\":\"SLVR\",\"lokacija\":{\"latitude\":\"-63.135399\",\"longitude\":\"-17.6448\"},\"naziv\":\"Viru Viru International Airport\"},{\"drzava\":\"PE\",\"icao\":\"SPIM\",\"lokacija\":{\"latitude\":\"-77.114305\",\"longitude\":\"-12.0219\"},\"naziv\":\"Jorge Chavez International Airport\"},{\"drzava\":\"PE\",\"icao\":\"SPZO\",\"lokacija\":{\"latitude\":\"-71.9387969971\",\"longitude\":\"-13.5356998444\"},\"naziv\":\"Alejandro Velasco Astete International Airport\"},{\"drzava\":\"UY\",\"icao\":\"SUMU\",\"lokacija\":{\"latitude\":\"-56.0308\",\"longitude\":\"-34.838402\"},\"naziv\":\"Carrasco International /General C L Berisso Airport\"},{\"drzava\":\"VE\",\"icao\":\"SVBC\",\"lokacija\":{\"latitude\":\"-64.692222\",\"longitude\":\"10.111111\"},\"naziv\":\"General Jose Antonio Anzoategui International Airport\"},{\"drzava\":\"VE\",\"icao\":\"SVMI\",\"lokacija\":{\"latitude\":\"-66.991222\",\"longitude\":\"10.601194\"},\"naziv\":\"Simon Bolr­var International Airport\"},{\"drzava\":\"PR\",\"icao\":\"TJSJ\",\"lokacija\":{\"latitude\":\"-66.0018005371\",\"longitude\":\"18.4393997192\"},\"naziv\":\"Luis Munoz Marin International Airport\"},{\"drzava\":\"SX\",\"icao\":\"TNCM\",\"lokacija\":{\"latitude\":\"-63.1088981628\",\"longitude\":\"18.04100036620\"},\"naziv\":\"Princess Juliana International Airport\"},{\"drzava\":\"KZ\",\"icao\":\"UAAA\",\"lokacija\":{\"latitude\":\"77.04049682617188\",\"longitude\":\"43.35210037\"},\"naziv\":\"Almaty Airport\"},{\"drzava\":\"KZ\",\"icao\":\"UACC\",\"lokacija\":{\"latitude\":\"71.46690368652344\",\"longitude\":\"51.02220153\"},\"naziv\":\"Astana International Airport\"},{\"drzava\":\"KG\",\"icao\":\"UAFM\",\"lokacija\":{\"latitude\":\"74.4776000977\",\"longitude\":\"43.0612983704\"},\"naziv\":\"Manas International Airport\"},{\"drzava\":\"KZ\",\"icao\":\"UAKK\",\"lokacija\":{\"latitude\":\"73.33439636230469\",\"longitude\":\"49.67079925\"},\"naziv\":\"Sary-Arka Airport\"},{\"drzava\":\"AZ\",\"icao\":\"UBBB\",\"lokacija\":{\"latitude\":\"50.04669952392578\",\"longitude\":\"40.46749877\"},\"naziv\":\"Heydar Aliyev International Airport\"},{\"drzava\":\"AM\",\"icao\":\"UDYZ\",\"lokacija\":{\"latitude\":\"44.3959007263\",\"longitude\":\"40.1473007202\"},\"naziv\":\"Zvartnots International Airport\"},{\"drzava\":\"GE\",\"icao\":\"UGTB\",\"lokacija\":{\"latitude\":\"44.95470047\",\"longitude\":\"41.6692008972\"},\"naziv\":\"Tbilisi International Airport\"},{\"drzava\":\"RU\",\"icao\":\"UHHH\",\"lokacija\":{\"latitude\":\"135.18800354004\",\"longitude\":\"48.5279998779\"},\"naziv\":\"Khabarovsk-Novy Airport\"},{\"drzava\":\"UA\",\"icao\":\"UKBB\",\"lokacija\":{\"latitude\":\"30.894699096679688\",\"longitude\":\"50.3450012\"},\"naziv\":\"Boryspil International Airport\"},{\"drzava\":\"UA\",\"icao\":\"UKFF\",\"lokacija\":{\"latitude\":\"33.975101470947266\",\"longitude\":\"45.0522003\"},\"naziv\":\"Simferopol International Airport\"},{\"drzava\":\"UA\",\"icao\":\"UKHH\",\"lokacija\":{\"latitude\":\"36.290000915527344\",\"longitude\":\"49.9248008\"},\"naziv\":\"Kharkiv International Airport\"},{\"drzava\":\"UA\",\"icao\":\"UKOO\",\"lokacija\":{\"latitude\":\"30.67650032043457\",\"longitude\":\"46.42679977\"},\"naziv\":\"Odessa International Airport\"},{\"drzava\":\"RU\",\"icao\":\"ULLI\",\"lokacija\":{\"latitude\":\"30.262500762939453\",\"longitude\":\"59.8003005\"},\"naziv\":\"Pulkovo Airport\"},{\"drzava\":\"BY\",\"icao\":\"UMMS\",\"lokacija\":{\"latitude\":\"28.030700683594\",\"longitude\":\"53.8824996948\"},\"naziv\":\"Minsk National Airport\"},{\"drzava\":\"RU\",\"icao\":\"UNKL\",\"lokacija\":{\"latitude\":\"92.493301\",\"longitude\":\"56.172901\"},\"naziv\":\"Yemelyanovo Airport\"},{\"drzava\":\"RU\",\"icao\":\"UNNT\",\"lokacija\":{\"latitude\":\"82.650703430176\",\"longitude\":\"55.0125999450\"},\"naziv\":\"Tolmachevo Airport\"},{\"drzava\":\"RU\",\"icao\":\"URRP\",\"lokacija\":{\"latitude\":\"39.924722\",\"longitude\":\"47.493888\"},\"naziv\":\"Platov International Airport\"},{\"drzava\":\"RU\",\"icao\":\"URSS\",\"lokacija\":{\"latitude\":\"39.9566\",\"longitude\":\"43.449902\"},\"naziv\":\"Sochi International Airport\"},{\"drzava\":\"RU\",\"icao\":\"USSS\",\"lokacija\":{\"latitude\":\"60.802700042725\",\"longitude\":\"56.7430992126\"},\"naziv\":\"Koltsovo Airport\"},{\"drzava\":\"TM\",\"icao\":\"UTAA\",\"lokacija\":{\"latitude\":\"58.361\",\"longitude\":\"37.986801\"},\"naziv\":\"Ashgabat International Airport\"},{\"drzava\":\"UZ\",\"icao\":\"UTTT\",\"lokacija\":{\"latitude\":\"69.2811965942\",\"longitude\":\"41.257900238\"},\"naziv\":\"Tashkent International Airport\"},{\"drzava\":\"RU\",\"icao\":\"UUBW\",\"lokacija\":{\"latitude\":\"38.150002\",\"longitude\":\"55.553299\"},\"naziv\":\"Zhukovsky International Airport\"},{\"drzava\":\"RU\",\"icao\":\"UUDD\",\"lokacija\":{\"latitude\":\"37.90629959106445\",\"longitude\":\"55.40879821\"},\"naziv\":\"Domodedovo International Airport\"},{\"drzava\":\"RU\",\"icao\":\"UUEE\",\"lokacija\":{\"latitude\":\"37.4146\",\"longitude\":\"55.972599\"},\"naziv\":\"Sheremetyevo International Airport\"},{\"drzava\":\"RU\",\"icao\":\"UUWW\",\"lokacija\":{\"latitude\":\"37.2615013123\",\"longitude\":\"55.5914993286\"},\"naziv\":\"Vnukovo International Airport\"},{\"drzava\":\"RU\",\"icao\":\"UWKD\",\"lokacija\":{\"latitude\":\"49.278701782227\",\"longitude\":\"55.6062011718\"},\"naziv\":\"Kazan International Airport\"},{\"drzava\":\"RU\",\"icao\":\"UWKG\",\"lokacija\":{\"latitude\":\"49.13330078125\",\"longitude\":\"55.86669921875\"},\"naziv\":\"Borisoglebskoye Airport\"},{\"drzava\":\"RU\",\"icao\":\"UWUU\",\"lokacija\":{\"latitude\":\"55.874401092529\",\"longitude\":\"54.5574989318\"},\"naziv\":\"Ufa International Airport\"},{\"drzava\":\"RU\",\"icao\":\"UWWW\",\"lokacija\":{\"latitude\":\"50.16429901123\",\"longitude\":\"53.50490188598\"},\"naziv\":\"Kurumoch International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VABB\",\"lokacija\":{\"latitude\":\"72.8678970337\",\"longitude\":\"19.0886993408\"},\"naziv\":\"Chhatrapati Shivaji International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VAGO\",\"lokacija\":{\"latitude\":\"73.8313980103\",\"longitude\":\"15.3808002472\"},\"naziv\":\"Dabolim Airport\"},{\"drzava\":\"LK\",\"icao\":\"VCBI\",\"lokacija\":{\"latitude\":\"79.88410186767578\",\"longitude\":\"7.180759906\"},\"naziv\":\"Bandaranaike International Colombo Airport\"},{\"drzava\":\"LK\",\"icao\":\"VCRI\",\"lokacija\":{\"latitude\":\"81.124128\",\"longitude\":\"6.284467\"},\"naziv\":\"Mattala Rajapaksa International Airport\"},{\"drzava\":\"KH\",\"icao\":\"VDPP\",\"lokacija\":{\"latitude\":\"104.84400177001953\",\"longitude\":\"11.5466003\"},\"naziv\":\"Phnom Penh International Airport\"},{\"drzava\":\"KH\",\"icao\":\"VDSR\",\"lokacija\":{\"latitude\":\"103.81300354\",\"longitude\":\"13.4106998444000\"},\"naziv\":\"Siem Reap International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VECC\",\"lokacija\":{\"latitude\":\"88.44670104980469\",\"longitude\":\"22.65469932\"},\"naziv\":\"Netaji Subhash Chandra Bose International Airport\"},{\"drzava\":\"BD\",\"icao\":\"VGZR\",\"lokacija\":{\"latitude\":\"90.397783\",\"longitude\":\"23.843347\"},\"naziv\":\"Hazrat Shahjalal International Airport\"},{\"drzava\":\"HK\",\"icao\":\"VHHH\",\"lokacija\":{\"latitude\":\"113.915001\",\"longitude\":\"22.308901\"},\"naziv\":\"Hong Kong International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VIAR\",\"lokacija\":{\"latitude\":\"74.7973022461\",\"longitude\":\"31.7096004486\"},\"naziv\":\"Sri Guru Ram Dass Jee International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VIDP\",\"lokacija\":{\"latitude\":\"77.103104\",\"longitude\":\"28.5665\"},\"naziv\":\"Indira Gandhi International Airport\"},{\"drzava\":\"MO\",\"icao\":\"VMMC\",\"lokacija\":{\"latitude\":\"113.592003\",\"longitude\":\"22.149599\"},\"naziv\":\"Macau International Airport\"},{\"drzava\":\"NP\",\"icao\":\"VNKT\",\"lokacija\":{\"latitude\":\"85.3591\",\"longitude\":\"27.6966\"},\"naziv\":\"Tribhuvan International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VOBL\",\"lokacija\":{\"latitude\":\"77.706299\",\"longitude\":\"13.1979\"},\"naziv\":\"Kempegowda International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VOCI\",\"lokacija\":{\"latitude\":\"76.401901\",\"longitude\":\"10.152\"},\"naziv\":\"Cochin International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VOCL\",\"lokacija\":{\"latitude\":\"75.95529937740001\",\"longitude\":\"11.13679981\"},\"naziv\":\"Calicut International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VOHS\",\"lokacija\":{\"latitude\":\"78.4298553467\",\"longitude\":\"17.2313175201\"},\"naziv\":\"Rajiv Gandhi International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VOMM\",\"lokacija\":{\"latitude\":\"80.16929626464844\",\"longitude\":\"12.99000549\"},\"naziv\":\"Chennai International Airport\"},{\"drzava\":\"IN\",\"icao\":\"VOTV\",\"lokacija\":{\"latitude\":\"76.9200973511\",\"longitude\":\"8.48211956024\"},\"naziv\":\"Trivandrum International Airport\"},{\"drzava\":\"TH\",\"icao\":\"VTBD\",\"lokacija\":{\"latitude\":\"100.607002258\",\"longitude\":\"13.9125995636\"},\"naziv\":\"Don Mueang International Airport\"},{\"drzava\":\"TH\",\"icao\":\"VTBS\",\"lokacija\":{\"latitude\":\"100.74700164794922\",\"longitude\":\"13.6810998\"},\"naziv\":\"Suvarnabhumi Airport\"},{\"drzava\":\"TH\",\"icao\":\"VTCC\",\"lokacija\":{\"latitude\":\"98.962600708\",\"longitude\":\"18.7667999267999\"},\"naziv\":\"Chiang Mai International Airport\"},{\"drzava\":\"TH\",\"icao\":\"VTSP\",\"lokacija\":{\"latitude\":\"98.316902\",\"longitude\":\"8.1132\"},\"naziv\":\"Phuket International Airport\"},{\"drzava\":\"VN\",\"icao\":\"VVDN\",\"lokacija\":{\"latitude\":\"108.1989974975586\",\"longitude\":\"16.04389953\"},\"naziv\":\"Da Nang International Airport\"},{\"drzava\":\"VN\",\"icao\":\"VVNB\",\"lokacija\":{\"latitude\":\"105.80699920654297\",\"longitude\":\"21.2212009\"},\"naziv\":\"Noi Bai International Airport\"},{\"drzava\":\"VN\",\"icao\":\"VVTS\",\"lokacija\":{\"latitude\":\"106.652000427\",\"longitude\":\"10.8187999725\"},\"naziv\":\"Tan Son Nhat International Airport\"},{\"drzava\":\"MM\",\"icao\":\"VYMD\",\"lokacija\":{\"latitude\":\"95.97789764404297\",\"longitude\":\"21.70219993\"},\"naziv\":\"Mandalay International Airport\"},{\"drzava\":\"MM\",\"icao\":\"VYYY\",\"lokacija\":{\"latitude\":\"96.1332015991\",\"longitude\":\"16.907300949099\"},\"naziv\":\"Yangon International Airport\"},{\"drzava\":\"ID\",\"icao\":\"WAAA\",\"lokacija\":{\"latitude\":\"119.55400085449219\",\"longitude\":\"-5.0616297\"},\"naziv\":\"Hasanuddin International Airport\"},{\"drzava\":\"ID\",\"icao\":\"WADD\",\"lokacija\":{\"latitude\":\"115.16699981689\",\"longitude\":\"-8.7481698989\"},\"naziv\":\"Ngurah Rai (Bali) International Airport\"},{\"drzava\":\"ID\",\"icao\":\"WAJJ\",\"lokacija\":{\"latitude\":\"140.5160064698\",\"longitude\":\"-2.5769500733\"},\"naziv\":\"Sentani International Airport\"},{\"drzava\":\"ID\",\"icao\":\"WARR\",\"lokacija\":{\"latitude\":\"112.78700256347656\",\"longitude\":\"-7.3798298\"},\"naziv\":\"Juanda International Airport\"},{\"drzava\":\"ID\",\"icao\":\"WAXX\",\"lokacija\":{\"latitude\":\"131.287\",\"longitude\":\"-0.894\"},\"naziv\":\"Dominique Edward Osok Airport\"},{\"drzava\":\"BN\",\"icao\":\"WBSB\",\"lokacija\":{\"latitude\":\"114.9280014038086\",\"longitude\":\"4.944200038\"},\"naziv\":\"Brunei International Airport\"},{\"drzava\":\"ID\",\"icao\":\"WIII\",\"lokacija\":{\"latitude\":\"106.65599823\",\"longitude\":\"-6.1255698204\"},\"naziv\":\"Soekarno-Hatta International Airport\"},{\"drzava\":\"ID\",\"icao\":\"WIMM\",\"lokacija\":{\"latitude\":\"98.885278\",\"longitude\":\"3.642222\"},\"naziv\":\"Kualanamu International Airport\"},{\"drzava\":\"MY\",\"icao\":\"WMKK\",\"lokacija\":{\"latitude\":\"101.70999908447\",\"longitude\":\"2.74557995796\"},\"naziv\":\"Kuala Lumpur International Airport\"},{\"drzava\":\"SG\",\"icao\":\"WSSS\",\"lokacija\":{\"latitude\":\"103.994003\",\"longitude\":\"1.35019\"},\"naziv\":\"Singapore Changi Airport\"},{\"drzava\":\"AU\",\"icao\":\"YBBN\",\"lokacija\":{\"latitude\":\"153.11700439453125\",\"longitude\":\"-27.384199\"},\"naziv\":\"Brisbane International Airport\"},{\"drzava\":\"AU\",\"icao\":\"YMML\",\"lokacija\":{\"latitude\":\"144.843002\",\"longitude\":\"-37.673302\"},\"naziv\":\"Melbourne International Airport\"},{\"drzava\":\"CA\",\"icao\":\"YMX\",\"lokacija\":{\"latitude\":\"0\",\"longitude\":\"0\"},\"naziv\":\"International Airport of Mirabel - Academy of Aeronautics of Canada Flying School training\"},{\"drzava\":\"AU\",\"icao\":\"YPAD\",\"lokacija\":{\"latitude\":\"138.531006\",\"longitude\":\"-34.945\"},\"naziv\":\"Adelaide International Airport\"},{\"drzava\":\"AU\",\"icao\":\"YPPH\",\"lokacija\":{\"latitude\":\"115.96700286865234\",\"longitude\":\"-31.940299\"},\"naziv\":\"Perth International Airport\"},{\"drzava\":\"AU\",\"icao\":\"YSCB\",\"lokacija\":{\"latitude\":\"149.19500732421875\",\"longitude\":\"-35.306900\"},\"naziv\":\"Canberra International Airport\"},{\"drzava\":\"AU\",\"icao\":\"YSSY\",\"lokacija\":{\"latitude\":\"151.177001953125\",\"longitude\":\"-33.94609832\"},\"naziv\":\"Sydney Kingsford Smith International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZBAA\",\"lokacija\":{\"latitude\":\"116.58499908447266\",\"longitude\":\"40.0801010\"},\"naziv\":\"Beijing Capital International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZBAD\",\"lokacija\":{\"latitude\":\"116.41092\",\"longitude\":\"39.509945\"},\"naziv\":\"Beijing Daxing International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZBHH\",\"lokacija\":{\"latitude\":\"111.823997\",\"longitude\":\"40.851398\"},\"naziv\":\"Baita International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZBNY\",\"lokacija\":{\"latitude\":\"116.38800048828125\",\"longitude\":\"39.7827987\"},\"naziv\":\"Beijing Nanyuan Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZBTJ\",\"lokacija\":{\"latitude\":\"117.346000671\",\"longitude\":\"39.124401092499\"},\"naziv\":\"Tianjin Binhai International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZBYN\",\"lokacija\":{\"latitude\":\"112.62799835205078\",\"longitude\":\"37.7468986\"},\"naziv\":\"Taiyuan Wusu Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZGGG\",\"lokacija\":{\"latitude\":\"113.29900360107422\",\"longitude\":\"23.3924007\"},\"naziv\":\"Guangzhou Baiyun International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZGHA\",\"lokacija\":{\"latitude\":\"113.220001221\",\"longitude\":\"28.189199447599\"},\"naziv\":\"Changsha Huanghua International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZGKL\",\"lokacija\":{\"latitude\":\"110.03900146484375\",\"longitude\":\"25.2180995\"},\"naziv\":\"Guilin Liangjiang International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZGNN\",\"lokacija\":{\"latitude\":\"108.1719970703125\",\"longitude\":\"22.60829925\"},\"naziv\":\"Nanning Wuxu Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZGSZ\",\"lokacija\":{\"latitude\":\"113.81099700927734\",\"longitude\":\"22.6392993\"},\"naziv\":\"Shenzhen Bao'an International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZHCC\",\"lokacija\":{\"latitude\":\"113.841003418\",\"longitude\":\"34.519699096699\"},\"naziv\":\"Zhengzhou Xinzheng International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZHHH\",\"lokacija\":{\"latitude\":\"114.208\",\"longitude\":\"30.7838\"},\"naziv\":\"Wuhan Tianhe International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZJHK\",\"lokacija\":{\"latitude\":\"110.45899963378906\",\"longitude\":\"19.9349002\"},\"naziv\":\"Haikou Meilan International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZJSY\",\"lokacija\":{\"latitude\":\"109.41200256347656\",\"longitude\":\"18.3029003\"},\"naziv\":\"Sanya Phoenix International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZLXY\",\"lokacija\":{\"latitude\":\"108.751999\",\"longitude\":\"34.447102\"},\"naziv\":\"Xi'an Xianyang International Airport\"},{\"drzava\":\"MN\",\"icao\":\"ZMUB\",\"lokacija\":{\"latitude\":\"106.766998\",\"longitude\":\"47.843102\"},\"naziv\":\"Chinggis Khaan International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZPPP\",\"lokacija\":{\"latitude\":\"102.9291667\",\"longitude\":\"25.1019444\"},\"naziv\":\"Kunming Changshui International Airport\"},{\"drzava\":\"CH\",\"icao\":\"ZRH\",\"lokacija\":{\"latitude\":\"0\",\"longitude\":\"0\"},\"naziv\":\"Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSAM\",\"lokacija\":{\"latitude\":\"118.12799835205078\",\"longitude\":\"24.5440006\"},\"naziv\":\"Xiamen Gaoqi International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSFZ\",\"lokacija\":{\"latitude\":\"119.66300201416016\",\"longitude\":\"25.9351005\"},\"naziv\":\"Fuzhou Changle International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSHC\",\"lokacija\":{\"latitude\":\"120.43399810791016\",\"longitude\":\"30.2294998\"},\"naziv\":\"Hangzhou Xiaoshan International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSJN\",\"lokacija\":{\"latitude\":\"117.21600341796875\",\"longitude\":\"36.8572006\"},\"naziv\":\"Yaoqiang Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSNB\",\"lokacija\":{\"latitude\":\"121.46199798583984\",\"longitude\":\"29.8267002\"},\"naziv\":\"Ningbo Lishe International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSNJ\",\"lokacija\":{\"latitude\":\"118.86199951171875\",\"longitude\":\"31.7420005\"},\"naziv\":\"Nanjing Lukou Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSPD\",\"lokacija\":{\"latitude\":\"121.80500030517578\",\"longitude\":\"31.1434001\"},\"naziv\":\"Shanghai Pudong International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSSS\",\"lokacija\":{\"latitude\":\"121.33599853515625\",\"longitude\":\"31.1979007\"},\"naziv\":\"Shanghai Hongqiao International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZSWZ\",\"lokacija\":{\"latitude\":\"120.851997\",\"longitude\":\"27.912201\"},\"naziv\":\"Wenzhou Longwan International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZUCK\",\"lokacija\":{\"latitude\":\"106.64199829101562\",\"longitude\":\"29.7192001\"},\"naziv\":\"Chongqing Jiangbei International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZUGY\",\"lokacija\":{\"latitude\":\"106.8010025024414\",\"longitude\":\"26.53849983\"},\"naziv\":\"Longdongbao Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZUUU\",\"lokacija\":{\"latitude\":\"103.9469985961914\",\"longitude\":\"30.57850074\"},\"naziv\":\"Chengdu Shuangliu International Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZYHB\",\"lokacija\":{\"latitude\":\"126.25\",\"longitude\":\"45.6234016418457\"},\"naziv\":\"Taiping Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZYTL\",\"lokacija\":{\"latitude\":\"121.53900146484375\",\"longitude\":\"38.9656982\"},\"naziv\":\"Zhoushuizi Airport\"},{\"drzava\":\"CN\",\"icao\":\"ZYTX\",\"lokacija\":{\"latitude\":\"123.48300170898438\",\"longitude\":\"41.6398010\"},\"naziv\":\"Taoxian Airport\"}]",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://webpredmeti:8080/mjancic_aplikacija_3/api/serveri",
+									"protocol": "http",
+									"host": [
+										"webpredmeti"
+									],
+									"port": "8080",
+									"path": [
+										"mjancic_aplikacija_3",
+										"api",
+										"serveri"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

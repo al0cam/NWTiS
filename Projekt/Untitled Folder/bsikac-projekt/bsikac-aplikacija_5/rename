@@ -1,0 +1,14 @@
+#!/bin/bash
+echo String za promjenu?
+read prije
+echo String u koji promijeniti?
+read poslije
+
+echo Koja putanja?
+read putanja
+cd $putanja
+
+export prije
+export poslije
+grep -rl "$prije" ./ | xargs sed -i "s/$prije/$poslije/g";
+find . -depth -execdir rename 's/\Q$ENV{prije}\E/\Q$ENV{poslije}\E/g' {} \;

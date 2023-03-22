@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>NWTIS konfiguracija</comment>
+<entry key="adresa.aplikacija_3">http://localhost:8080/bsikac-aplikacija_3/api</entry>
+<entry key="adresa.aplikacija_1">localhost</entry>
+<entry key="port.aplikacija_1">8000</entry>
+<entry key="stranica.brojRedova">300</entry>
+<entry key="sustav.korisnik">admin</entry>
+<entry key="sustav.lozinka">admin</entry>
+</properties>

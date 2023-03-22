@@ -1,0 +1,86 @@
+{
+	"folders": {},
+	"connections": {
+		"hsqldb_server-17fd6c04f04-1ae3b33e8b2eff0f": {
+			"provider": "generic",
+			"driver": "hsqldb_server",
+			"name": "nwtis_g4 SA",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "9001",
+				"database": "nwtis_g4",
+				"url": "jdbc:hsqldb:hsql://localhost:9001/nwtis_g4",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"hsqldb_server-17fd6c92e9f-6e17e55d29292cfe": {
+			"provider": "generic",
+			"driver": "hsqldb_server",
+			"name": "nwtis_g4 - nwtis_g4",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "9001",
+				"database": "nwtis_g4",
+				"url": "jdbc:hsqldb:hsql://localhost:9001/nwtis_g4",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-17fdb48da13-5e7b79d84f61d310": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL - nwtis_g4 root",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			},
+			"custom-properties": {
+				"SQLEditor.outputPanel.autoShow": "false"
+			}
+		},
+		"mysql8-17fdb4aab7c-17908fdccfd60400": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "MySQL - nwtis_g4 ",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "nwtis_g4",
+				"url": "jdbc:mysql://localhost:3306/nwtis_g4",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "TRUE"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

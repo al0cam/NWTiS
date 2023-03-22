@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.foi.nwtis.bsikac.zadaca_2.dretve"},{"l":"org.foi.nwtis.bsikac.zadaca_2.modeli"},{"l":"org.foi.nwtis.bsikac.zadaca_2.mvc"},{"l":"org.foi.nwtis.bsikac.zadaca_2.podaci"},{"l":"org.foi.nwtis.bsikac.zadaca_2.rest"},{"l":"org.foi.nwtis.bsikac.zadaca_2.slusaci"}];updateSearchResults();

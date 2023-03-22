@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>NWTIS konfiguracija</comment>
+<entry key="LocationIQ.token">pk.00d2bac724d0b794fa8ebe333375e340</entry>
+<entry key="OpenWeatherMap.apikey">110a9b80707de72f0f6fa4ed31587578</entry>
+<entry key="OpenSkyNetwork.korisnik">bsikac</entry>
+<entry key="OpenSkyNetwork.lozinka">OgghuHWumcZvQr6ngh0B</entry>
+<entry key="ciklus.spavanje">300</entry>
+</properties>

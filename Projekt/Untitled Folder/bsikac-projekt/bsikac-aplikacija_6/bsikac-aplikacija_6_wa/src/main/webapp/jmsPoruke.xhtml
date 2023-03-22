@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<f:view contentType="text/html;charset=UTF-8" encoding="UTF-8">
+	<h:head>
+		<title>Pregled JMS poruka</title>
+		<h:outputStylesheet library="css" name="dizajn.css" />
+	</h:head>
+	<h:body>
+		<h2>Pregled JMS poruka</h2>
+		<br />
+		<h:link outcome="index.xhtml" value="Početak" />
+		<br/><br/>
+		<h:form>
+		<h:commandButton id="submit" value="Sinkronizacija"  action="#{pregledKorisnika.sinkroniziraj}"/>
+		</h:form>
+		
+      
+		<h:panelGrid columns="2">
+			<h:panelGroup>
+				<h:form id="form1">
+					<h:dataTable id="korisnici" style="vertical-align: top;"
+						value="#{pregledKorisnika.dohvaceniKorisnici}" var="k"
+						styleClass="authorTable" headerClass="authorTableHeader"
+						rowClasses="authorTableOddRow,authorTableEvenRow">
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Korisnik" />
+							</f:facet>
+							<h:outputText value="#{k.korime}" />
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Prezime" />
+							</f:facet>
+							<h:outputText value="#{k.prezime}" />
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="Ime" />
+							</f:facet>
+							<h:outputText value="#{k.ime}" />
+						</h:column>
+						<h:column>
+							<f:facet name="header">
+								<h:outputText value="u lokalnoj bazi" />
+							</f:facet>
+							<h:outputText value="${pregledKorisnika.uLokalnojBazi(k.korime)}" />
+						</h:column>
+					</h:dataTable>
+				</h:form>
+			</h:panelGroup>
+			
+		</h:panelGrid>
+	</h:body>
+</f:view>
+</html>

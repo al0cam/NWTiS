@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="bsikac-aplikacija_2">
+    <output-path>$PROJECT_DIR$/out/artifacts/bsikac_aplikacija_2</output-path>
+    <root id="root">
+      <element id="archive" name="bsikac_aplikacija_2.jar">
+        <element id="module-output" name="bsikac-aplikacija_2" />
+      </element>
+    </root>
+  </artifact>
+</component>
